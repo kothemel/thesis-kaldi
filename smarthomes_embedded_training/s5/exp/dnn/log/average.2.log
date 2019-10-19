@@ -1,0 +1,10 @@
+# nnet-am-average exp/dnn/3.1.mdl exp/dnn/3.2.mdl exp/dnn/3.3.mdl exp/dnn/3.4.mdl exp/dnn/3.5.mdl exp/dnn/3.6.mdl exp/dnn/3.7.mdl exp/dnn/3.8.mdl exp/dnn/3.9.mdl exp/dnn/3.10.mdl exp/dnn/3.11.mdl exp/dnn/3.12.mdl exp/dnn/3.13.mdl exp/dnn/3.14.mdl exp/dnn/3.15.mdl exp/dnn/3.16.mdl - | nnet-am-copy --learning-rate=0.004 - exp/dnn/3.mdl 
+# Started at Tue Jul 14 10:25:04 EEST 2015
+#
+nnet-am-average exp/dnn/3.1.mdl exp/dnn/3.2.mdl exp/dnn/3.3.mdl exp/dnn/3.4.mdl exp/dnn/3.5.mdl exp/dnn/3.6.mdl exp/dnn/3.7.mdl exp/dnn/3.8.mdl exp/dnn/3.9.mdl exp/dnn/3.10.mdl exp/dnn/3.11.mdl exp/dnn/3.12.mdl exp/dnn/3.13.mdl exp/dnn/3.14.mdl exp/dnn/3.15.mdl exp/dnn/3.16.mdl - 
+nnet-am-copy --learning-rate=0.004 - exp/dnn/3.mdl 
+LOG (nnet-am-average:main():nnet-am-average.cc:168) Averaged parameters of 16 neural nets, and wrote to -
+LOG (nnet-am-copy:SetLearningRates():nnet-nnet.cc:336) Set learning rates to 0.004
+LOG (nnet-am-copy:main():nnet-am-copy.cc:175) Copied neural net from - to exp/dnn/3.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Jul 14 10:25:04 EEST 2015, elapsed time 0 seconds

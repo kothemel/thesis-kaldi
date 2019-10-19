@@ -1,0 +1,14 @@
+0 1 kn   kn  0.0
+0 1 ds   ds  0.0
+0 1 st   st  0.0
+0 1 cm   cm  0.0
+0 1 cl   cl  0.0
+0 1 pw   pw  0.0
+0 1 kj   kj  0.0
+0 1 kt   kt  0.0
+0 1 pr   pr  0.0
+0 1 ap   ap  0.0
+0 1 co   co  0.0
+0 1 spe  spe 0.0
+0 1 si   si  0.0
+1 0.0

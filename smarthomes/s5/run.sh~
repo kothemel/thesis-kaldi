@@ -1,0 +1,44 @@
+#!/bin/bash
+
+train_cmd="utils/run.pl"
+decode_cmd="utils/run.pl"
+
+train_yesno=train_smarthomes
+test_base_name=test_smarthomes
+
+#rm -rf exp mfcc data
+#######################################################
+
+# Data preparation ----> Done
+
+#local/prepare_data.sh waves_smarthomes
+#local/prepare_dict.sh
+#utils/prepare_lang.sh --position-dependent-phones false data/local/dict "<SIL>" data/local/lang data/lang
+#local/prepare_lm.sh
+
+
+#sort ./data/train_smarthomes/utt2spk >> ./data/train_smarthomes/utttemp | uniq -c
+#rm ./data/train_smarthomes/utt2spk 
+#mv ./data/train_smarthomes/utttemp ./data/train_smarthomes/utt2spk
+
+#sort ./data/test_smarthomes/text >> ./data/test_smarthomes/texttemp | uniq -c
+#rm ./data/test_smarthomes/text 
+#mv ./data/test_smarthomes/texttemp ./data/test_smarthomes/text
+
+# Feature extraction ----> Done
+#for x in train_smarthomes test_smarthomes ; do 
+# steps/make_mfcc.sh --nj 4 data/$x exp/make_mfcc/$x mfcc
+# steps/compute_cmvn_stats.sh data/$x exp/make_mfcc/$x mfcc
+#done
+
+# Mono training
+steps/train_mono.sh --nj 1 --cmd "$train_cmd" --totgauss 400 data/train_smarthomes data/lang exp/mono0a 
+  
+# Graph compilation  
+#utils/mkgraph.sh --mono data/lang_test_tg exp/mono0a exp/mono0a/graph_tgpr
+
+# Decoding
+#steps/decode.sh --nj 1 --cmd "$decode_cmd" \
+#    exp/mono0a/graph_tgpr data/test_smarthomes exp/mono0a/decode_test_smarthomes
+
+#for x in exp/*/decode*; do [ -d $x ] && grep WER $x/wer_* | utils/best_wer.sh; done

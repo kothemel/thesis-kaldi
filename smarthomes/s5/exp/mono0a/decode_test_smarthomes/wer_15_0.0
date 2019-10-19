@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/mono0a/decode_test_smarthomes/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 8.04 [ 23 / 286, 0 ins, 0 del, 23 sub ]
+%SER 8.04 [ 23 / 286 ]
+Scored 286 sentences, 0 not present in hyp.

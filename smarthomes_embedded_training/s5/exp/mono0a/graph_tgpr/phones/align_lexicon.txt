@@ -1,0 +1,15 @@
+<SIL> <SIL> SIL
+<eps> <eps> SIL
+ap ap ap
+cl cl cl
+cm cm cm
+co co co
+ds ds ds
+kj kj kj
+kn kn kn
+kt kt kt
+pr pr pr
+pw pw pw
+si si si
+spe spe spe
+st st st

@@ -1,0 +1,584 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono0a/graph_tgpr/words.txt exp/mono0a/final.mdl exp/mono0a/graph_tgpr/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_smarthomes/split1/1/utt2spk scp:data/test_smarthomes/split1/1/cmvn.scp scp:data/test_smarthomes/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono0a/decode_test_smarthomes/lat.1.gz" 
+# Started at Mon Jul 13 18:11:06 EEST 2015
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono0a/graph_tgpr/words.txt exp/mono0a/final.mdl exp/mono0a/graph_tgpr/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test_smarthomes/split1/1/utt2spk scp:data/test_smarthomes/split1/1/cmvn.scp scp:data/test_smarthomes/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono0a/decode_test_smarthomes/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test_smarthomes/split1/1/utt2spk scp:data/test_smarthomes/split1/1/cmvn.scp scp:data/test_smarthomes/split1/1/feats.scp ark:- 
+S08-eventid-000 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-000 is -6.19778 over 22 frames.
+S08-eventid-001 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-001 is -7.10454 over 36 frames.
+S08-eventid-002 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-002 is -7.85541 over 44 frames.
+S08-eventid-003 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-003 is -6.56908 over 22 frames.
+S08-eventid-004 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-004 is -6.8464 over 41 frames.
+S08-eventid-005 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-005 is -6.91416 over 100 frames.
+S08-eventid-006 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-006 is -6.68191 over 33 frames.
+S08-eventid-007 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-007 is -6.6319 over 154 frames.
+S08-eventid-008 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-008 is -7.34662 over 44 frames.
+S08-eventid-009 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-009 is -6.73792 over 29 frames.
+S08-eventid-010 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-010 is -6.94756 over 51 frames.
+S08-eventid-011 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-011 is -7.20562 over 86 frames.
+S08-eventid-012 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-012 is -6.68433 over 31 frames.
+S08-eventid-013 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-013 is -6.69478 over 102 frames.
+S08-eventid-014 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-014 is -6.98929 over 42 frames.
+S08-eventid-015 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-015 is -7.35743 over 24 frames.
+S08-eventid-016 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-016 is -6.63804 over 28 frames.
+S08-eventid-017 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-017 is -6.94882 over 43 frames.
+S08-eventid-018 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-018 is -7.30662 over 89 frames.
+S08-eventid-019 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-019 is -6.95197 over 59 frames.
+S08-eventid-020 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-020 is -6.91658 over 146 frames.
+S08-eventid-021 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-021 is -7.23339 over 34 frames.
+S08-eventid-022 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-022 is -6.55832 over 34 frames.
+S08-eventid-023 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-023 is -7.10719 over 41 frames.
+S08-eventid-024 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-024 is -7.28522 over 83 frames.
+S08-eventid-025 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-025 is -6.41684 over 29 frames.
+S08-eventid-026 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-026 is -6.78429 over 174 frames.
+S08-eventid-027 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-027 is -7.26496 over 41 frames.
+S08-eventid-028 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-028 is -6.61231 over 31 frames.
+S08-eventid-029 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-029 is -7.24134 over 37 frames.
+S08-eventid-030 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-030 is -7.25515 over 80 frames.
+S08-eventid-031 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-031 is -6.4123 over 32 frames.
+S08-eventid-032 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-032 is -7.10837 over 43 frames.
+S08-eventid-033 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-033 is -6.93948 over 38 frames.
+S08-eventid-034 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-034 is -6.73316 over 38 frames.
+S08-eventid-035 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-035 is -7.12194 over 56 frames.
+S08-eventid-036 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-036 is -7.35948 over 78 frames.
+S08-eventid-037 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-037 is -6.46295 over 37 frames.
+S08-eventid-038 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-038 is -6.76141 over 99 frames.
+S08-eventid-039 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-039 is -6.95917 over 36 frames.
+S08-eventid-040 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-040 is -6.63076 over 25 frames.
+S08-eventid-041 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-041 is -7.32831 over 39 frames.
+S08-eventid-042 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-042 is -7.37205 over 85 frames.
+S08-eventid-043 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-043 is -6.60312 over 31 frames.
+S08-eventid-044 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-044 is -6.77251 over 214 frames.
+S08-eventid-045 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-045 is -7.36467 over 42 frames.
+S08-eventid-046 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-046 is -6.80278 over 25 frames.
+S08-eventid-047 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-047 is -6.72152 over 47 frames.
+S08-eventid-048 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-048 is -7.40043 over 71 frames.
+S08-eventid-049 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-049 is -6.75118 over 29 frames.
+S08-eventid-050 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-050 is -6.68636 over 190 frames.
+S08-eventid-051 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-051 is -7.23849 over 26 frames.
+S08-eventid-052 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-052 is -6.957 over 352 frames.
+S08-eventid-053 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-053 is -6.85447 over 31 frames.
+S08-eventid-054 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-054 is -6.87968 over 34 frames.
+S08-eventid-055 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-055 is -7.40128 over 75 frames.
+S08-eventid-056 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-056 is -6.4225 over 35 frames.
+S08-eventid-057 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-057 is -7.20758 over 161 frames.
+S08-eventid-058 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-058 is -7.16718 over 39 frames.
+S08-eventid-059 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-059 is -7.02851 over 202 frames.
+S08-eventid-060 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-060 is -6.68686 over 25 frames.
+S08-eventid-061 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-061 is -7.11989 over 38 frames.
+S08-eventid-062 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-062 is -7.08221 over 80 frames.
+S08-eventid-063 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-063 is -6.83015 over 56 frames.
+S08-eventid-064 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-064 is -6.78763 over 211 frames.
+S08-eventid-065 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-065 is -7.06978 over 36 frames.
+S08-eventid-066 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-066 is -6.90331 over 281 frames.
+S08-eventid-067 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-067 is -7.10034 over 25 frames.
+S08-eventid-068 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-068 is -6.78395 over 42 frames.
+S08-eventid-069 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-069 is -7.48986 over 68 frames.
+S08-eventid-070 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-070 is -6.58777 over 29 frames.
+S08-eventid-071 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-071 is -6.77099 over 227 frames.
+S08-eventid-072 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-072 is -7.22656 over 36 frames.
+S08-eventid-073 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-073 is -7.00768 over 201 frames.
+S08-eventid-074 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-074 is -6.62539 over 29 frames.
+S08-eventid-075 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-075 is -6.97845 over 43 frames.
+S08-eventid-076 kn 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-076 is -7.14252 over 88 frames.
+S08-eventid-077 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-077 is -7.14394 over 42 frames.
+S08-eventid-078 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-078 is -7.00497 over 166 frames.
+S08-eventid-079 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-079 is -6.97322 over 48 frames.
+S08-eventid-080 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-080 is -6.78182 over 563 frames.
+S08-eventid-081 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-081 is -6.68677 over 130 frames.
+S08-eventid-082 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-082 is -6.36167 over 143 frames.
+S08-eventid-083 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-083 is -6.93026 over 429 frames.
+S08-eventid-084 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-084 is -6.52614 over 117 frames.
+S08-eventid-085 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-085 is -6.9246 over 109 frames.
+S08-eventid-086 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-086 is -7.11548 over 88 frames.
+S08-eventid-087 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-087 is -6.51803 over 116 frames.
+S08-eventid-088 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-088 is -6.92017 over 446 frames.
+S08-eventid-089 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-089 is -6.52331 over 117 frames.
+S08-eventid-090 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-090 is -6.71537 over 170 frames.
+S08-eventid-091 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-091 is -7.10103 over 265 frames.
+S08-eventid-092 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-092 is -6.53839 over 97 frames.
+S08-eventid-093 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-093 is -7.48427 over 52 frames.
+S08-eventid-094 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-094 is -6.68188 over 205 frames.
+S08-eventid-095 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-095 is -6.40243 over 126 frames.
+S08-eventid-096 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-096 is -7.15801 over 265 frames.
+S08-eventid-097 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-097 is -6.6904 over 104 frames.
+S08-eventid-098 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-098 is -7.05013 over 96 frames.
+S08-eventid-099 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-099 is -7.07461 over 59 frames.
+S08-eventid-100 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-100 is -6.62341 over 91 frames.
+S08-eventid-101 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-101 is -6.93931 over 125 frames.
+S08-eventid-102 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-102 is -6.82378 over 96 frames.
+S08-eventid-103 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-103 is -6.98217 over 494 frames.
+S08-eventid-104 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-104 is -6.71518 over 110 frames.
+S08-eventid-105 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-105 is -7.07624 over 80 frames.
+S08-eventid-106 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-106 is -6.72897 over 54 frames.
+S08-eventid-107 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-107 is -6.97673 over 51 frames.
+S08-eventid-108 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-108 is -6.52663 over 77 frames.
+S08-eventid-109 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-109 is -6.91115 over 404 frames.
+S08-eventid-110 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-110 is -6.97018 over 144 frames.
+S08-eventid-111 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-111 is -6.92508 over 185 frames.
+S08-eventid-112 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-112 is -6.86761 over 59 frames.
+S08-eventid-113 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-113 is -7.2872 over 157 frames.
+S08-eventid-114 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-114 is -7.20764 over 237 frames.
+S08-eventid-115 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-115 is -6.78049 over 115 frames.
+S08-eventid-116 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-116 is -6.81319 over 89 frames.
+S08-eventid-117 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-117 is -6.98539 over 100 frames.
+S08-eventid-118 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-118 is -6.69418 over 71 frames.
+S08-eventid-119 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-119 is -6.98755 over 81 frames.
+S08-eventid-120 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-120 is -6.80223 over 130 frames.
+S08-eventid-121 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-121 is -6.93222 over 262 frames.
+S08-eventid-122 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-122 is -6.73348 over 122 frames.
+S08-eventid-123 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-123 is -6.99457 over 106 frames.
+S08-eventid-124 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-124 is -6.66425 over 92 frames.
+S08-eventid-125 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-125 is -6.59766 over 116 frames.
+S08-eventid-126 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-126 is -7.29578 over 245 frames.
+S08-eventid-127 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-127 is -6.88666 over 101 frames.
+S08-eventid-128 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-128 is -7.10108 over 74 frames.
+S08-eventid-129 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-129 is -6.6293 over 60 frames.
+S08-eventid-130 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-130 is -7.52375 over 101 frames.
+S08-eventid-131 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-131 is -6.62418 over 107 frames.
+S08-eventid-132 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-132 is -7.08981 over 268 frames.
+S08-eventid-133 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-133 is -6.72481 over 71 frames.
+S08-eventid-134 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-134 is -6.63528 over 68 frames.
+S08-eventid-135 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-135 is -6.79895 over 63 frames.
+S08-eventid-136 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-136 is -6.29171 over 98 frames.
+S08-eventid-137 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-137 is -7.14089 over 289 frames.
+S08-eventid-138 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-138 is -6.70166 over 103 frames.
+S08-eventid-139 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-139 is -6.78709 over 93 frames.
+S08-eventid-140 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-140 is -6.72711 over 77 frames.
+S08-eventid-141 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-141 is -6.58127 over 110 frames.
+S08-eventid-142 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-142 is -6.89224 over 44 frames.
+S08-eventid-143 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-143 is -6.82343 over 109 frames.
+S08-eventid-144 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-144 is -9.19385 over 116 frames.
+S08-eventid-145 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-145 is -9.24475 over 103 frames.
+S08-eventid-146 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-146 is -7.92628 over 362 frames.
+S08-eventid-147 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-147 is -7.00043 over 325 frames.
+S08-eventid-148 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-148 is -7.60067 over 871 frames.
+S08-eventid-149 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-149 is -7.86287 over 119 frames.
+S08-eventid-150 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-150 is -7.62864 over 52 frames.
+S08-eventid-151 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-151 is -7.26224 over 35 frames.
+S08-eventid-152 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-152 is -7.85614 over 45 frames.
+S08-eventid-153 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-153 is -7.49856 over 22 frames.
+S08-eventid-154 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-154 is -8.01646 over 38 frames.
+S08-eventid-155 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-155 is -7.69102 over 35 frames.
+S08-eventid-156 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-156 is -7.99874 over 57 frames.
+S08-eventid-157 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-157 is -7.05073 over 246 frames.
+S08-eventid-158 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-158 is -7.52362 over 1093 frames.
+S08-eventid-159 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-159 is -8.09108 over 64 frames.
+S08-eventid-160 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-160 is -7.9817 over 173 frames.
+S08-eventid-161 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-161 is -7.44203 over 21 frames.
+S08-eventid-162 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-162 is -7.91875 over 139 frames.
+S08-eventid-163 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-163 is -6.92096 over 133 frames.
+S08-eventid-164 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-164 is -7.84704 over 1067 frames.
+S08-eventid-165 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-165 is -7.39991 over 149 frames.
+S08-eventid-166 st 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-166 is -6.90047 over 331 frames.
+S08-eventid-167 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-167 is -7.57007 over 90 frames.
+S08-eventid-168 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-168 is -7.12304 over 36 frames.
+S08-eventid-169 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-169 is -7.82121 over 39 frames.
+S08-eventid-170 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-170 is -7.85934 over 145 frames.
+S08-eventid-171 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-171 is -7.70339 over 1036 frames.
+S08-eventid-172 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-172 is -7.50836 over 232 frames.
+S08-eventid-173 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-173 is -7.99293 over 70 frames.
+S08-eventid-174 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-174 is -7.18741 over 258 frames.
+S08-eventid-175 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-175 is -7.7284 over 1030 frames.
+S08-eventid-176 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-176 is -7.41141 over 770 frames.
+S08-eventid-177 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-177 is -8.21378 over 820 frames.
+S08-eventid-178 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-178 is -7.7585 over 37 frames.
+S08-eventid-179 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-179 is -7.7423 over 210 frames.
+S08-eventid-180 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-180 is -8.18399 over 53 frames.
+S08-eventid-181 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-181 is -7.44834 over 109 frames.
+S08-eventid-182 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-182 is -7.98873 over 1013 frames.
+S08-eventid-183 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-183 is -7.94561 over 60 frames.
+S08-eventid-184 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-184 is -7.80335 over 47 frames.
+S08-eventid-185 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-185 is -8.03162 over 70 frames.
+S08-eventid-186 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-186 is -7.71182 over 92 frames.
+S08-eventid-187 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-187 is -6.36171 over 117 frames.
+S08-eventid-188 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-188 is -7.80727 over 206 frames.
+S08-eventid-189 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-189 is -6.62972 over 507 frames.
+S08-eventid-190 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-190 is -8.06127 over 1128 frames.
+S08-eventid-191 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-191 is -8.02734 over 33 frames.
+S08-eventid-192 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-192 is -7.61017 over 146 frames.
+S08-eventid-193 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-193 is -7.71988 over 424 frames.
+S08-eventid-194 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-194 is -7.69842 over 224 frames.
+S08-eventid-195 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-195 is -8.02625 over 1238 frames.
+S08-eventid-196 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-196 is -8.04169 over 32 frames.
+S08-eventid-197 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-197 is -8.05786 over 100 frames.
+S08-eventid-198 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-198 is -7.69255 over 128 frames.
+S08-eventid-199 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-199 is -7.41954 over 258 frames.
+S08-eventid-200 pr 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-200 is -8.25482 over 847 frames.
+S08-eventid-201 spe 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-201 is -7.61 over 1007 frames.
+S08-eventid-202 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-202 is -6.91271 over 192 frames.
+S08-eventid-203 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-203 is -6.88343 over 577 frames.
+S08-eventid-204 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-204 is -6.80785 over 1402 frames.
+S08-eventid-205 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-205 is -6.87594 over 1526 frames.
+S08-eventid-206 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-206 is -6.88506 over 1907 frames.
+S08-eventid-207 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-207 is -7.05902 over 327 frames.
+S08-eventid-208 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-208 is -6.88476 over 1172 frames.
+S08-eventid-209 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-209 is -6.90773 over 1584 frames.
+S08-eventid-210 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-210 is -6.84865 over 2069 frames.
+S08-eventid-211 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-211 is -6.86718 over 1356 frames.
+S08-eventid-212 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-212 is -6.83642 over 1770 frames.
+S08-eventid-213 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-213 is -6.90324 over 1499 frames.
+S08-eventid-214 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-214 is -7.76775 over 360 frames.
+S08-eventid-215 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-215 is -7.69505 over 420 frames.
+S08-eventid-216 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-216 is -7.72653 over 247 frames.
+S08-eventid-217 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-217 is -7.98954 over 346 frames.
+S08-eventid-218 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-218 is -7.71195 over 337 frames.
+S08-eventid-219 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-219 is -7.74099 over 318 frames.
+S08-eventid-220 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-220 is -7.69065 over 430 frames.
+S08-eventid-221 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-221 is -7.87027 over 410 frames.
+S08-eventid-222 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-222 is -7.70901 over 385 frames.
+S08-eventid-223 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-223 is -7.82089 over 332 frames.
+S08-eventid-224 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-224 is -7.83865 over 241 frames.
+S08-eventid-225 co 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-225 is -8.06655 over 247 frames.
+S08-eventid-226 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-226 is -6.70544 over 527 frames.
+S08-eventid-227 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-227 is -6.57005 over 732 frames.
+S08-eventid-228 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-228 is -6.7272 over 670 frames.
+S08-eventid-229 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-229 is -6.69807 over 752 frames.
+S08-eventid-230 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-230 is -6.59266 over 1425 frames.
+S08-eventid-231 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-231 is -6.70947 over 685 frames.
+S08-eventid-232 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-232 is -6.63903 over 771 frames.
+S08-eventid-233 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-233 is -6.62717 over 1091 frames.
+S08-eventid-234 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-234 is -6.63133 over 776 frames.
+S08-eventid-235 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-235 is -6.6798 over 1060 frames.
+S08-eventid-236 kt 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-236 is -6.64825 over 945 frames.
+S08-eventid-237 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-237 is -7.53565 over 803 frames.
+S08-eventid-238 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-238 is -7.68496 over 640 frames.
+S08-eventid-239 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-239 is -7.43642 over 448 frames.
+S08-eventid-240 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-240 is -7.62614 over 470 frames.
+S08-eventid-241 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-241 is -7.77031 over 442 frames.
+S08-eventid-242 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-242 is -7.78726 over 641 frames.
+S08-eventid-243 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-243 is -7.77593 over 450 frames.
+S08-eventid-244 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-244 is -7.72357 over 548 frames.
+S08-eventid-245 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-245 is -7.72474 over 579 frames.
+S08-eventid-246 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-246 is -7.69308 over 609 frames.
+S08-eventid-247 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-247 is -7.76205 over 632 frames.
+S08-eventid-248 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-248 is -7.69509 over 531 frames.
+S08-eventid-249 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-249 is -7.75408 over 469 frames.
+S08-eventid-250 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-250 is -7.75889 over 513 frames.
+S08-eventid-251 cl 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-251 is -7.58064 over 26 frames.
+S08-eventid-252 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-252 is -7.30249 over 509 frames.
+S08-eventid-253 cm 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-253 is -6.97004 over 68 frames.
+S08-eventid-254 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-254 is -7.21971 over 555 frames.
+S08-eventid-255 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-255 is -7.28491 over 710 frames.
+S08-eventid-256 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-256 is -7.15782 over 575 frames.
+S08-eventid-257 pw 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-257 is -6.79505 over 29 frames.
+S08-eventid-258 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-258 is -7.05481 over 370 frames.
+S08-eventid-259 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-259 is -7.59285 over 317 frames.
+S08-eventid-260 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-260 is -7.54512 over 301 frames.
+S08-eventid-261 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-261 is -7.49447 over 484 frames.
+S08-eventid-262 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-262 is -7.44215 over 414 frames.
+S08-eventid-263 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-263 is -7.43243 over 422 frames.
+S08-eventid-264 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-264 is -7.38912 over 408 frames.
+S08-eventid-265 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-265 is -7.34711 over 435 frames.
+S08-eventid-266 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-266 is -7.47856 over 364 frames.
+S08-eventid-267 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-267 is -7.43414 over 369 frames.
+S08-eventid-268 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-268 is -7.57548 over 457 frames.
+S08-eventid-269 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-269 is -7.26846 over 310 frames.
+S08-eventid-270 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-270 is -7.20951 over 285 frames.
+S08-eventid-271 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-271 is -7.15347 over 311 frames.
+S08-eventid-272 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-272 is -7.30988 over 306 frames.
+S08-eventid-273 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-273 is -7.22987 over 347 frames.
+S08-eventid-274 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-274 is -7.13953 over 353 frames.
+S08-eventid-275 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-275 is -6.95885 over 353 frames.
+S08-eventid-276 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-276 is -6.93556 over 409 frames.
+S08-eventid-277 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-277 is -7.21129 over 381 frames.
+S08-eventid-278 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-278 is -7.02719 over 332 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 286 utterances, errors on 0
+S08-eventid-279 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-279 is -6.9987 over 480 frames.
+S08-eventid-280 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-280 is -7.00058 over 315 frames.
+S08-eventid-281 si 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-281 is -6.28241 over 329 frames.
+S08-eventid-282 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-282 is -6.92329 over 445 frames.
+S08-eventid-283 ap 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-283 is -7.20617 over 400 frames.
+S08-eventid-284 kj 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-284 is -7.23711 over 70 frames.
+S08-eventid-285 ds 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance S08-eventid-285 is -6.91945 over 40 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 17.6357s: real-time factor assuming 100 frames/sec is 0.0214111
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 286 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -7.21873 over 82367 frames.
+# Accounting: time=18 threads=1
+# Ended (code 0) at Mon Jul 13 18:11:24 EEST 2015, elapsed time 18 seconds

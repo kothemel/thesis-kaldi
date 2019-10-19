@@ -1,0 +1,47 @@
+# gmm-acc-stats-ali exp/mono0a/3.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" "ark:gunzip -c exp/mono0a/ali.1.gz|" exp/mono0a/3.1.acc 
+# Started at Mon Jul 13 18:06:30 EEST 2015
+#
+gmm-acc-stats-ali exp/mono0a/3.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' 'ark:gunzip -c exp/mono0a/ali.1.gz|' exp/mono0a/3.1.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- 
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance S01-eventid_049 avg. like is -84.9407 over 176 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance S01-eventid_099 avg. like is -78.2283 over 219 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance S01-eventid_149 avg. like is -78.713 over 325 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance S01-eventid_199 avg. like is -77.3259 over 460 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance S02-eventid-000 avg. like is -89.6675 over 63 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance S02-eventid-051 avg. like is -77.9344 over 204 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance S02-eventid-101 avg. like is -84.188 over 275 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance S02-eventid-151 avg. like is -76.3004 over 207 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance S02-eventid-201 avg. like is -80.3741 over 151 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance S02-eventid-251 avg. like is -80.0825 over 145 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance S03-eventid-012 avg. like is -85.1828 over 100 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance S03-eventid-067 avg. like is -79.8973 over 578 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance S03-eventid-120 avg. like is -75.2841 over 100 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance S03-eventid-170 avg. like is -78.5141 over 108 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance S03-eventid-220 avg. like is -78.2135 over 1161 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance S03-eventid-270 avg. like is -79.3387 over 233 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance S04-eventid-034 avg. like is -87.161 over 358 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 900 utterances; for utterance S04-eventid-084 avg. like is -82.8766 over 168 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 950 utterances; for utterance S04-eventid-134 avg. like is -76.2527 over 118 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1000 utterances; for utterance S04-eventid-185 avg. like is -82.3474 over 452 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1050 utterances; for utterance S04-eventid-235 avg. like is -80.7258 over 1291 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1100 utterances; for utterance S04-eventid-285 avg. like is -84.3754 over 125 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1150 utterances; for utterance S05-eventid-032 avg. like is -77.5937 over 53 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1200 utterances; for utterance S05-eventid-082 avg. like is -79.0158 over 140 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1250 utterances; for utterance S05-eventid-132 avg. like is -85.1218 over 415 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1300 utterances; for utterance S05-eventid-182 avg. like is -90.7831 over 322 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1350 utterances; for utterance S06-eventid-041 avg. like is -85.5705 over 96 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1400 utterances; for utterance S06-eventid-091 avg. like is -88.491 over 401 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1450 utterances; for utterance S06-eventid-141 avg. like is -91.2605 over 387 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1500 utterances; for utterance S06-eventid-191 avg. like is -93.2943 over 460 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1550 utterances; for utterance S07-eventid-018 avg. like is -92.0451 over 21 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1600 utterances; for utterance S07-eventid-068 avg. like is -92.3 over 99 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1650 utterances; for utterance S07-eventid-118 avg. like is -81.0406 over 159 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1700 utterances; for utterance S07-eventid-168 avg. like is -90.2641 over 182 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 1753 utterances, errors on 0
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:105) Processed 1750 utterances; for utterance S07-eventid-218 avg. like is -84.0974 over 315 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:112) Done 1753 files, 0 with errors.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -85.128 over 492109 frames.
+LOG (gmm-acc-stats-ali:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=3 threads=1
+# Ended (code 0) at Mon Jul 13 18:06:33 EEST 2015, elapsed time 3 seconds

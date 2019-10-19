@@ -1,0 +1,9 @@
+# nnet-am-init exp/mono0a/tree data/lang/topo "nnet-init exp/dnn/nnet.config -|" exp/dnn/0.mdl 
+# Started at Tue Jul 14 10:17:47 EEST 2015
+#
+nnet-am-init exp/mono0a/tree data/lang/topo 'nnet-init exp/dnn/nnet.config -|' exp/dnn/0.mdl 
+nnet-init exp/dnn/nnet.config - 
+LOG (nnet-init:main():nnet-init.cc:71) Initialized raw neural net and wrote it to -
+LOG (nnet-am-init:main():nnet-am-init.cc:103) Initialized neural net and wrote it to exp/dnn/0.mdl
+# Accounting: time=2 threads=1
+# Ended (code 0) at Tue Jul 14 10:17:49 EEST 2015, elapsed time 2 seconds

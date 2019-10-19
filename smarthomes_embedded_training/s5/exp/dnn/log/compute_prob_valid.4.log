@@ -1,0 +1,8 @@
+# nnet-compute-prob exp/dnn/4.mdl ark:exp/dnn/egs/valid_diagnostic.egs 
+# Started at Tue Jul 14 10:27:27 EEST 2015
+#
+nnet-compute-prob exp/dnn/4.mdl ark:exp/dnn/egs/valid_diagnostic.egs 
+LOG (nnet-compute-prob:main():nnet-compute-prob.cc:91) Saw 4000 examples, average probability is -1.06982 and accuracy is 0.6845 with total weight 4000
+-1.06982
+# Accounting: time=27 threads=1
+# Ended (code 0) at Tue Jul 14 10:27:54 EEST 2015, elapsed time 27 seconds

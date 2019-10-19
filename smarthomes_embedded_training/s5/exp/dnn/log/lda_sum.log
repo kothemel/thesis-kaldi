@@ -1,0 +1,1 @@
+sum-lda-accs exp/dnn/lda.acc exp/dnn/lda.1.acc 

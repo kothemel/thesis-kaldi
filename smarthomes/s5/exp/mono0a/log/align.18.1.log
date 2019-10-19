@@ -1,0 +1,20 @@
+# gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false "gmm-boost-silence --boost=1.0 1 exp/mono0a/18.mdl - |" "ark:gunzip -c exp/mono0a/fsts.1.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |" "ark,t:|gzip -c >exp/mono0a/ali.1.gz" 
+# Started at Mon Jul 13 18:08:42 EEST 2015
+#
+gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 --careful=false 'gmm-boost-silence --boost=1.0 1 exp/mono0a/18.mdl - |' 'ark:gunzip -c exp/mono0a/fsts.1.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- | add-deltas ark:- ark:- |' 'ark,t:|gzip -c >exp/mono0a/ali.1.gz' 
+gmm-boost-silence --boost=1.0 1 exp/mono0a/18.mdl - 
+LOG (gmm-boost-silence:main():gmm-boost-silence.cc:93) Boosted weights for 5 pdfs, by factor of 1
+LOG (gmm-boost-silence:main():gmm-boost-silence.cc:103) Wrote model to -
+apply-cmvn --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:data/train_smarthomes/split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance S04-eventid-039 with beam 40
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance S04-eventid-101 with beam 40
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance S04-eventid-115 with beam 40
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance S04-eventid-131 with beam 40
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance S04-eventid-137 with beam 40
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 1753 utterances, errors on 0
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:129) Overall log-likelihood per frame is -82.7054 over 492109 frames.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:131) Retried 5 out of 1753 utterances.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:133) Done 1753, errors on 0
+# Accounting: time=10 threads=1
+# Ended (code 0) at Mon Jul 13 18:08:52 EEST 2015, elapsed time 10 seconds

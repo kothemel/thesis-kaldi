@@ -1,0 +1,17 @@
+<eps> 0
+SIL 1
+kn 2
+ds 3
+st 4
+cm 5
+cl 6
+pw 7
+kj 8
+kt 9
+pr 10
+ap 11
+co 12
+spe 13
+si 14
+#0 15
+#1 16

@@ -1,0 +1,11 @@
+# mkdir -p exp/dnn/decode_tree/score_6/ && lattice-1best --lm-scale=6 "ark:gunzip -c exp/dnn/decode_tree/lat.*.gz|" ark:- | lattice-align-words-lexicon data/lang/phones/align_lexicon.int exp/dnn/decode_tree/../final.mdl ark:- ark:- | nbest-to-ctm ark:- - | utils/int2sym.pl -f 5 data/lang/words.txt | cat > exp/dnn/decode_tree/score_6/train_smarthomes.ctm 
+# Started at Tue Jul 14 10:35:15 EEST 2015
+#
+lattice-1best --lm-scale=6 'ark:gunzip -c exp/dnn/decode_tree/lat.*.gz|' ark:- 
+lattice-align-words-lexicon data/lang/phones/align_lexicon.int exp/dnn/decode_tree/../final.mdl ark:- ark:- 
+nbest-to-ctm ark:- - 
+LOG (lattice-1best:main():lattice-1best.cc:90) Done converting 1 to best path, 0 had errors.
+LOG (lattice-align-words-lexicon:main():lattice-align-words-lexicon.cc:137) Successfully aligned 1 lattices; 0 had errors.
+LOG (nbest-to-ctm:main():nbest-to-ctm.cc:100) Converted 1 linear lattices to ctm format; 0 had errors.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Tue Jul 14 10:35:17 EEST 2015, elapsed time 2 seconds

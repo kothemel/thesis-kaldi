@@ -1,0 +1,38 @@
+# set -o pipefail && ali-to-post "ark:gunzip -c exp/mono0a/ali.1.gz|" ark:- | weight-silence-post 0.0 1 exp/mono0a/final.mdl ark:- ark:- | acc-lda --rand-prune=4.0 exp/mono0a/final.mdl "ark,s,cs:utils/subset_scp.pl --quiet 10000 data/train_smarthomes/split1/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- | splice-feats --left-context=4 --right-context=4 ark:- ark:- |" ark,s,cs:- exp/dnn/lda.1.acc 
+# Started at Tue Jul 14 10:16:55 EEST 2015
+#
+ali-to-post 'ark:gunzip -c exp/mono0a/ali.1.gz|' ark:- 
+weight-silence-post 0.0 1 exp/mono0a/final.mdl ark:- ark:- 
+acc-lda --rand-prune=4.0 exp/mono0a/final.mdl 'ark,s,cs:utils/subset_scp.pl --quiet 10000 data/train_smarthomes/split1/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- | splice-feats --left-context=4 --right-context=4 ark:- ark:- |' ark,s,cs:- exp/dnn/lda.1.acc 
+apply-cmvn --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- 
+splice-feats --left-context=4 --right-context=4 ark:- ark:- 
+LOG (acc-lda:main():acc-lda.cc:113) Done 100 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 200 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 300 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 400 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 500 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 600 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 700 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 800 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 900 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1000 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1100 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1200 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1300 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1400 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1500 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1600 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1700 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1800 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 1900 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 2000 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 2100 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 2200 utterances.
+LOG (acc-lda:main():acc-lda.cc:113) Done 2300 utterances.
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 2362 alignments.
+LOG (weight-silence-post:main():weight-silence-post.cc:95) Done 2362 posteriors.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 2362 utterances, errors on 0
+LOG (acc-lda:main():acc-lda.cc:116) Done 2362 files, failed for 0
+LOG (acc-lda:main():acc-lda.cc:121) Written statistics.
+# Accounting: time=3 threads=1
+# Ended (code 0) at Tue Jul 14 10:16:58 EEST 2015, elapsed time 3 seconds

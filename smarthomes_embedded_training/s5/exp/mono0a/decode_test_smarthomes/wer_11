@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/mono0a/decode_test_smarthomes/scoring/test_filt.txt ark,p:- 
+%WER 205.59 [ 588 / 286, 580 ins, 1 del, 7 sub ]
+%SER 100.00 [ 1 / 1 ]
+Scored 1 sentences, 0 not present in hyp.

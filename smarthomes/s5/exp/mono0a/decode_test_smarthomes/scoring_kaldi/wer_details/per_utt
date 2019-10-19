@@ -1,0 +1,1144 @@
+S08-eventid-000 ref  ds
+S08-eventid-000 hyp  ds
+S08-eventid-000 op    C
+S08-eventid-000 #csid 1 0 0 0
+S08-eventid-001 ref  ds
+S08-eventid-001 hyp  ds
+S08-eventid-001 op    C
+S08-eventid-001 #csid 1 0 0 0
+S08-eventid-002 ref  ds
+S08-eventid-002 hyp  ds
+S08-eventid-002 op    C
+S08-eventid-002 #csid 1 0 0 0
+S08-eventid-003 ref  ds
+S08-eventid-003 hyp  ds
+S08-eventid-003 op    C
+S08-eventid-003 #csid 1 0 0 0
+S08-eventid-004 ref  ds
+S08-eventid-004 hyp  ds
+S08-eventid-004 op    C
+S08-eventid-004 #csid 1 0 0 0
+S08-eventid-005 ref  kn
+S08-eventid-005 hyp  kn
+S08-eventid-005 op    C
+S08-eventid-005 #csid 1 0 0 0
+S08-eventid-006 ref  ds
+S08-eventid-006 hyp  ds
+S08-eventid-006 op    C
+S08-eventid-006 #csid 1 0 0 0
+S08-eventid-007 ref  st
+S08-eventid-007 hyp  st
+S08-eventid-007 op    C
+S08-eventid-007 #csid 1 0 0 0
+S08-eventid-008 ref  ds
+S08-eventid-008 hyp  ds
+S08-eventid-008 op    C
+S08-eventid-008 #csid 1 0 0 0
+S08-eventid-009 ref  ds
+S08-eventid-009 hyp  ds
+S08-eventid-009 op    C
+S08-eventid-009 #csid 1 0 0 0
+S08-eventid-010 ref  ds
+S08-eventid-010 hyp  ds
+S08-eventid-010 op    C
+S08-eventid-010 #csid 1 0 0 0
+S08-eventid-011 ref  kn
+S08-eventid-011 hyp  kn
+S08-eventid-011 op    C
+S08-eventid-011 #csid 1 0 0 0
+S08-eventid-012 ref  ds
+S08-eventid-012 hyp  ds
+S08-eventid-012 op    C
+S08-eventid-012 #csid 1 0 0 0
+S08-eventid-013 ref  st
+S08-eventid-013 hyp  st
+S08-eventid-013 op    C
+S08-eventid-013 #csid 1 0 0 0
+S08-eventid-014 ref  ds
+S08-eventid-014 hyp  ds
+S08-eventid-014 op    C
+S08-eventid-014 #csid 1 0 0 0
+S08-eventid-015 ref  st
+S08-eventid-015 hyp  st
+S08-eventid-015 op    C
+S08-eventid-015 #csid 1 0 0 0
+S08-eventid-016 ref  ds
+S08-eventid-016 hyp  ds
+S08-eventid-016 op    C
+S08-eventid-016 #csid 1 0 0 0
+S08-eventid-017 ref  ds
+S08-eventid-017 hyp  ds
+S08-eventid-017 op    C
+S08-eventid-017 #csid 1 0 0 0
+S08-eventid-018 ref  kn
+S08-eventid-018 hyp  kn
+S08-eventid-018 op    C
+S08-eventid-018 #csid 1 0 0 0
+S08-eventid-019 ref  ds
+S08-eventid-019 hyp  ds
+S08-eventid-019 op    C
+S08-eventid-019 #csid 1 0 0 0
+S08-eventid-020 ref  st
+S08-eventid-020 hyp  si
+S08-eventid-020 op    S
+S08-eventid-020 #csid 0 1 0 0
+S08-eventid-021 ref  ds
+S08-eventid-021 hyp  ds
+S08-eventid-021 op    C
+S08-eventid-021 #csid 1 0 0 0
+S08-eventid-022 ref  ds
+S08-eventid-022 hyp  ds
+S08-eventid-022 op    C
+S08-eventid-022 #csid 1 0 0 0
+S08-eventid-023 ref  ds
+S08-eventid-023 hyp  ds
+S08-eventid-023 op    C
+S08-eventid-023 #csid 1 0 0 0
+S08-eventid-024 ref  kn
+S08-eventid-024 hyp  kn
+S08-eventid-024 op    C
+S08-eventid-024 #csid 1 0 0 0
+S08-eventid-025 ref  ds
+S08-eventid-025 hyp  ds
+S08-eventid-025 op    C
+S08-eventid-025 #csid 1 0 0 0
+S08-eventid-026 ref  st
+S08-eventid-026 hyp  kt
+S08-eventid-026 op    S
+S08-eventid-026 #csid 0 1 0 0
+S08-eventid-027 ref  ds
+S08-eventid-027 hyp  ds
+S08-eventid-027 op    C
+S08-eventid-027 #csid 1 0 0 0
+S08-eventid-028 ref  ds
+S08-eventid-028 hyp  ds
+S08-eventid-028 op    C
+S08-eventid-028 #csid 1 0 0 0
+S08-eventid-029 ref  ds
+S08-eventid-029 hyp  ds
+S08-eventid-029 op    C
+S08-eventid-029 #csid 1 0 0 0
+S08-eventid-030 ref  kn
+S08-eventid-030 hyp  kn
+S08-eventid-030 op    C
+S08-eventid-030 #csid 1 0 0 0
+S08-eventid-031 ref  ds
+S08-eventid-031 hyp  ds
+S08-eventid-031 op    C
+S08-eventid-031 #csid 1 0 0 0
+S08-eventid-032 ref  ds
+S08-eventid-032 hyp  ds
+S08-eventid-032 op    C
+S08-eventid-032 #csid 1 0 0 0
+S08-eventid-033 ref  kn
+S08-eventid-033 hyp  kn
+S08-eventid-033 op    C
+S08-eventid-033 #csid 1 0 0 0
+S08-eventid-034 ref  ds
+S08-eventid-034 hyp  ds
+S08-eventid-034 op    C
+S08-eventid-034 #csid 1 0 0 0
+S08-eventid-035 ref  ds
+S08-eventid-035 hyp  ds
+S08-eventid-035 op    C
+S08-eventid-035 #csid 1 0 0 0
+S08-eventid-036 ref  kn
+S08-eventid-036 hyp  kn
+S08-eventid-036 op    C
+S08-eventid-036 #csid 1 0 0 0
+S08-eventid-037 ref  ds
+S08-eventid-037 hyp  ds
+S08-eventid-037 op    C
+S08-eventid-037 #csid 1 0 0 0
+S08-eventid-038 ref  st
+S08-eventid-038 hyp  kt
+S08-eventid-038 op    S
+S08-eventid-038 #csid 0 1 0 0
+S08-eventid-039 ref  ds
+S08-eventid-039 hyp  ds
+S08-eventid-039 op    C
+S08-eventid-039 #csid 1 0 0 0
+S08-eventid-040 ref  ds
+S08-eventid-040 hyp  ds
+S08-eventid-040 op    C
+S08-eventid-040 #csid 1 0 0 0
+S08-eventid-041 ref  ds
+S08-eventid-041 hyp  ds
+S08-eventid-041 op    C
+S08-eventid-041 #csid 1 0 0 0
+S08-eventid-042 ref  kn
+S08-eventid-042 hyp  kn
+S08-eventid-042 op    C
+S08-eventid-042 #csid 1 0 0 0
+S08-eventid-043 ref  ds
+S08-eventid-043 hyp  ds
+S08-eventid-043 op    C
+S08-eventid-043 #csid 1 0 0 0
+S08-eventid-044 ref  st
+S08-eventid-044 hyp  st
+S08-eventid-044 op    C
+S08-eventid-044 #csid 1 0 0 0
+S08-eventid-045 ref  ds
+S08-eventid-045 hyp  ds
+S08-eventid-045 op    C
+S08-eventid-045 #csid 1 0 0 0
+S08-eventid-046 ref  ds
+S08-eventid-046 hyp  ds
+S08-eventid-046 op    C
+S08-eventid-046 #csid 1 0 0 0
+S08-eventid-047 ref  ds
+S08-eventid-047 hyp  ds
+S08-eventid-047 op    C
+S08-eventid-047 #csid 1 0 0 0
+S08-eventid-048 ref  kn
+S08-eventid-048 hyp  kn
+S08-eventid-048 op    C
+S08-eventid-048 #csid 1 0 0 0
+S08-eventid-049 ref  ds
+S08-eventid-049 hyp  ds
+S08-eventid-049 op    C
+S08-eventid-049 #csid 1 0 0 0
+S08-eventid-050 ref  st
+S08-eventid-050 hyp  si
+S08-eventid-050 op    S
+S08-eventid-050 #csid 0 1 0 0
+S08-eventid-051 ref  ds
+S08-eventid-051 hyp  ds
+S08-eventid-051 op    C
+S08-eventid-051 #csid 1 0 0 0
+S08-eventid-052 ref  st
+S08-eventid-052 hyp  st
+S08-eventid-052 op    C
+S08-eventid-052 #csid 1 0 0 0
+S08-eventid-053 ref  ds
+S08-eventid-053 hyp  ds
+S08-eventid-053 op    C
+S08-eventid-053 #csid 1 0 0 0
+S08-eventid-054 ref  st
+S08-eventid-054 hyp  ds
+S08-eventid-054 op    S
+S08-eventid-054 #csid 0 1 0 0
+S08-eventid-055 ref  kn
+S08-eventid-055 hyp  kn
+S08-eventid-055 op    C
+S08-eventid-055 #csid 1 0 0 0
+S08-eventid-056 ref  ds
+S08-eventid-056 hyp  ds
+S08-eventid-056 op    C
+S08-eventid-056 #csid 1 0 0 0
+S08-eventid-057 ref  st
+S08-eventid-057 hyp  st
+S08-eventid-057 op    C
+S08-eventid-057 #csid 1 0 0 0
+S08-eventid-058 ref  ds
+S08-eventid-058 hyp  ds
+S08-eventid-058 op    C
+S08-eventid-058 #csid 1 0 0 0
+S08-eventid-059 ref  st
+S08-eventid-059 hyp  st
+S08-eventid-059 op    C
+S08-eventid-059 #csid 1 0 0 0
+S08-eventid-060 ref  ds
+S08-eventid-060 hyp  ds
+S08-eventid-060 op    C
+S08-eventid-060 #csid 1 0 0 0
+S08-eventid-061 ref  ds
+S08-eventid-061 hyp  ds
+S08-eventid-061 op    C
+S08-eventid-061 #csid 1 0 0 0
+S08-eventid-062 ref  kn
+S08-eventid-062 hyp  kn
+S08-eventid-062 op    C
+S08-eventid-062 #csid 1 0 0 0
+S08-eventid-063 ref  ds
+S08-eventid-063 hyp  ds
+S08-eventid-063 op    C
+S08-eventid-063 #csid 1 0 0 0
+S08-eventid-064 ref  st
+S08-eventid-064 hyp  st
+S08-eventid-064 op    C
+S08-eventid-064 #csid 1 0 0 0
+S08-eventid-065 ref  ds
+S08-eventid-065 hyp  ds
+S08-eventid-065 op    C
+S08-eventid-065 #csid 1 0 0 0
+S08-eventid-066 ref  st
+S08-eventid-066 hyp  si
+S08-eventid-066 op    S
+S08-eventid-066 #csid 0 1 0 0
+S08-eventid-067 ref  ds
+S08-eventid-067 hyp  ds
+S08-eventid-067 op    C
+S08-eventid-067 #csid 1 0 0 0
+S08-eventid-068 ref  ds
+S08-eventid-068 hyp  ds
+S08-eventid-068 op    C
+S08-eventid-068 #csid 1 0 0 0
+S08-eventid-069 ref  kn
+S08-eventid-069 hyp  kn
+S08-eventid-069 op    C
+S08-eventid-069 #csid 1 0 0 0
+S08-eventid-070 ref  ds
+S08-eventid-070 hyp  ds
+S08-eventid-070 op    C
+S08-eventid-070 #csid 1 0 0 0
+S08-eventid-071 ref  st
+S08-eventid-071 hyp  st
+S08-eventid-071 op    C
+S08-eventid-071 #csid 1 0 0 0
+S08-eventid-072 ref  ds
+S08-eventid-072 hyp  ds
+S08-eventid-072 op    C
+S08-eventid-072 #csid 1 0 0 0
+S08-eventid-073 ref  st
+S08-eventid-073 hyp  st
+S08-eventid-073 op    C
+S08-eventid-073 #csid 1 0 0 0
+S08-eventid-074 ref  ds
+S08-eventid-074 hyp  ds
+S08-eventid-074 op    C
+S08-eventid-074 #csid 1 0 0 0
+S08-eventid-075 ref  ds
+S08-eventid-075 hyp  ds
+S08-eventid-075 op    C
+S08-eventid-075 #csid 1 0 0 0
+S08-eventid-076 ref  kn
+S08-eventid-076 hyp  kn
+S08-eventid-076 op    C
+S08-eventid-076 #csid 1 0 0 0
+S08-eventid-077 ref  ds
+S08-eventid-077 hyp  ds
+S08-eventid-077 op    C
+S08-eventid-077 #csid 1 0 0 0
+S08-eventid-078 ref  st
+S08-eventid-078 hyp  st
+S08-eventid-078 op    C
+S08-eventid-078 #csid 1 0 0 0
+S08-eventid-079 ref  ds
+S08-eventid-079 hyp  ds
+S08-eventid-079 op    C
+S08-eventid-079 #csid 1 0 0 0
+S08-eventid-080 ref  st
+S08-eventid-080 hyp  si
+S08-eventid-080 op    S
+S08-eventid-080 #csid 0 1 0 0
+S08-eventid-081 ref  cm
+S08-eventid-081 hyp  cm
+S08-eventid-081 op    C
+S08-eventid-081 #csid 1 0 0 0
+S08-eventid-082 ref  cm
+S08-eventid-082 hyp  cm
+S08-eventid-082 op    C
+S08-eventid-082 #csid 1 0 0 0
+S08-eventid-083 ref  st
+S08-eventid-083 hyp  st
+S08-eventid-083 op    C
+S08-eventid-083 #csid 1 0 0 0
+S08-eventid-084 ref  cm
+S08-eventid-084 hyp  cm
+S08-eventid-084 op    C
+S08-eventid-084 #csid 1 0 0 0
+S08-eventid-085 ref  st
+S08-eventid-085 hyp  st
+S08-eventid-085 op    C
+S08-eventid-085 #csid 1 0 0 0
+S08-eventid-086 ref  st
+S08-eventid-086 hyp  st
+S08-eventid-086 op    C
+S08-eventid-086 #csid 1 0 0 0
+S08-eventid-087 ref  cm
+S08-eventid-087 hyp  cm
+S08-eventid-087 op    C
+S08-eventid-087 #csid 1 0 0 0
+S08-eventid-088 ref  st
+S08-eventid-088 hyp  st
+S08-eventid-088 op    C
+S08-eventid-088 #csid 1 0 0 0
+S08-eventid-089 ref  cm
+S08-eventid-089 hyp  cm
+S08-eventid-089 op    C
+S08-eventid-089 #csid 1 0 0 0
+S08-eventid-090 ref  cm
+S08-eventid-090 hyp  cm
+S08-eventid-090 op    C
+S08-eventid-090 #csid 1 0 0 0
+S08-eventid-091 ref  st
+S08-eventid-091 hyp  st
+S08-eventid-091 op    C
+S08-eventid-091 #csid 1 0 0 0
+S08-eventid-092 ref  cm
+S08-eventid-092 hyp  cm
+S08-eventid-092 op    C
+S08-eventid-092 #csid 1 0 0 0
+S08-eventid-093 ref  st
+S08-eventid-093 hyp  st
+S08-eventid-093 op    C
+S08-eventid-093 #csid 1 0 0 0
+S08-eventid-094 ref  st
+S08-eventid-094 hyp  st
+S08-eventid-094 op    C
+S08-eventid-094 #csid 1 0 0 0
+S08-eventid-095 ref  cm
+S08-eventid-095 hyp  cm
+S08-eventid-095 op    C
+S08-eventid-095 #csid 1 0 0 0
+S08-eventid-096 ref  st
+S08-eventid-096 hyp  st
+S08-eventid-096 op    C
+S08-eventid-096 #csid 1 0 0 0
+S08-eventid-097 ref  cm
+S08-eventid-097 hyp  cm
+S08-eventid-097 op    C
+S08-eventid-097 #csid 1 0 0 0
+S08-eventid-098 ref  st
+S08-eventid-098 hyp  st
+S08-eventid-098 op    C
+S08-eventid-098 #csid 1 0 0 0
+S08-eventid-099 ref  cm
+S08-eventid-099 hyp  cm
+S08-eventid-099 op    C
+S08-eventid-099 #csid 1 0 0 0
+S08-eventid-100 ref  cm
+S08-eventid-100 hyp  cm
+S08-eventid-100 op    C
+S08-eventid-100 #csid 1 0 0 0
+S08-eventid-101 ref  st
+S08-eventid-101 hyp  st
+S08-eventid-101 op    C
+S08-eventid-101 #csid 1 0 0 0
+S08-eventid-102 ref  cm
+S08-eventid-102 hyp  cm
+S08-eventid-102 op    C
+S08-eventid-102 #csid 1 0 0 0
+S08-eventid-103 ref  st
+S08-eventid-103 hyp  st
+S08-eventid-103 op    C
+S08-eventid-103 #csid 1 0 0 0
+S08-eventid-104 ref  cm
+S08-eventid-104 hyp  cm
+S08-eventid-104 op    C
+S08-eventid-104 #csid 1 0 0 0
+S08-eventid-105 ref  st
+S08-eventid-105 hyp  st
+S08-eventid-105 op    C
+S08-eventid-105 #csid 1 0 0 0
+S08-eventid-106 ref  cm
+S08-eventid-106 hyp  cm
+S08-eventid-106 op    C
+S08-eventid-106 #csid 1 0 0 0
+S08-eventid-107 ref  cm
+S08-eventid-107 hyp  cm
+S08-eventid-107 op    C
+S08-eventid-107 #csid 1 0 0 0
+S08-eventid-108 ref  cm
+S08-eventid-108 hyp  cm
+S08-eventid-108 op    C
+S08-eventid-108 #csid 1 0 0 0
+S08-eventid-109 ref  st
+S08-eventid-109 hyp  st
+S08-eventid-109 op    C
+S08-eventid-109 #csid 1 0 0 0
+S08-eventid-110 ref  cm
+S08-eventid-110 hyp  cm
+S08-eventid-110 op    C
+S08-eventid-110 #csid 1 0 0 0
+S08-eventid-111 ref  cm
+S08-eventid-111 hyp  cm
+S08-eventid-111 op    C
+S08-eventid-111 #csid 1 0 0 0
+S08-eventid-112 ref  cm
+S08-eventid-112 hyp  cm
+S08-eventid-112 op    C
+S08-eventid-112 #csid 1 0 0 0
+S08-eventid-113 ref  cm
+S08-eventid-113 hyp  st
+S08-eventid-113 op    S
+S08-eventid-113 #csid 0 1 0 0
+S08-eventid-114 ref  st
+S08-eventid-114 hyp  st
+S08-eventid-114 op    C
+S08-eventid-114 #csid 1 0 0 0
+S08-eventid-115 ref  cm
+S08-eventid-115 hyp  cm
+S08-eventid-115 op    C
+S08-eventid-115 #csid 1 0 0 0
+S08-eventid-116 ref  st
+S08-eventid-116 hyp  st
+S08-eventid-116 op    C
+S08-eventid-116 #csid 1 0 0 0
+S08-eventid-117 ref  cm
+S08-eventid-117 hyp  cm
+S08-eventid-117 op    C
+S08-eventid-117 #csid 1 0 0 0
+S08-eventid-118 ref  cm
+S08-eventid-118 hyp  cm
+S08-eventid-118 op    C
+S08-eventid-118 #csid 1 0 0 0
+S08-eventid-119 ref  st
+S08-eventid-119 hyp  st
+S08-eventid-119 op    C
+S08-eventid-119 #csid 1 0 0 0
+S08-eventid-120 ref  cm
+S08-eventid-120 hyp  cm
+S08-eventid-120 op    C
+S08-eventid-120 #csid 1 0 0 0
+S08-eventid-121 ref  st
+S08-eventid-121 hyp  st
+S08-eventid-121 op    C
+S08-eventid-121 #csid 1 0 0 0
+S08-eventid-122 ref  cm
+S08-eventid-122 hyp  cm
+S08-eventid-122 op    C
+S08-eventid-122 #csid 1 0 0 0
+S08-eventid-123 ref  st
+S08-eventid-123 hyp  st
+S08-eventid-123 op    C
+S08-eventid-123 #csid 1 0 0 0
+S08-eventid-124 ref  cm
+S08-eventid-124 hyp  cm
+S08-eventid-124 op    C
+S08-eventid-124 #csid 1 0 0 0
+S08-eventid-125 ref  cm
+S08-eventid-125 hyp  cm
+S08-eventid-125 op    C
+S08-eventid-125 #csid 1 0 0 0
+S08-eventid-126 ref  st
+S08-eventid-126 hyp  st
+S08-eventid-126 op    C
+S08-eventid-126 #csid 1 0 0 0
+S08-eventid-127 ref  cm
+S08-eventid-127 hyp  cm
+S08-eventid-127 op    C
+S08-eventid-127 #csid 1 0 0 0
+S08-eventid-128 ref  cm
+S08-eventid-128 hyp  cm
+S08-eventid-128 op    C
+S08-eventid-128 #csid 1 0 0 0
+S08-eventid-129 ref  cm
+S08-eventid-129 hyp  cm
+S08-eventid-129 op    C
+S08-eventid-129 #csid 1 0 0 0
+S08-eventid-130 ref  st
+S08-eventid-130 hyp  st
+S08-eventid-130 op    C
+S08-eventid-130 #csid 1 0 0 0
+S08-eventid-131 ref  cm
+S08-eventid-131 hyp  cm
+S08-eventid-131 op    C
+S08-eventid-131 #csid 1 0 0 0
+S08-eventid-132 ref  st
+S08-eventid-132 hyp  st
+S08-eventid-132 op    C
+S08-eventid-132 #csid 1 0 0 0
+S08-eventid-133 ref  cm
+S08-eventid-133 hyp  cm
+S08-eventid-133 op    C
+S08-eventid-133 #csid 1 0 0 0
+S08-eventid-134 ref  cm
+S08-eventid-134 hyp  cm
+S08-eventid-134 op    C
+S08-eventid-134 #csid 1 0 0 0
+S08-eventid-135 ref  cm
+S08-eventid-135 hyp  cm
+S08-eventid-135 op    C
+S08-eventid-135 #csid 1 0 0 0
+S08-eventid-136 ref  cm
+S08-eventid-136 hyp  cm
+S08-eventid-136 op    C
+S08-eventid-136 #csid 1 0 0 0
+S08-eventid-137 ref  st
+S08-eventid-137 hyp  st
+S08-eventid-137 op    C
+S08-eventid-137 #csid 1 0 0 0
+S08-eventid-138 ref  cm
+S08-eventid-138 hyp  cm
+S08-eventid-138 op    C
+S08-eventid-138 #csid 1 0 0 0
+S08-eventid-139 ref  cm
+S08-eventid-139 hyp  cm
+S08-eventid-139 op    C
+S08-eventid-139 #csid 1 0 0 0
+S08-eventid-140 ref  cm
+S08-eventid-140 hyp  cm
+S08-eventid-140 op    C
+S08-eventid-140 #csid 1 0 0 0
+S08-eventid-141 ref  cm
+S08-eventid-141 hyp  cm
+S08-eventid-141 op    C
+S08-eventid-141 #csid 1 0 0 0
+S08-eventid-142 ref  st
+S08-eventid-142 hyp  si
+S08-eventid-142 op    S
+S08-eventid-142 #csid 0 1 0 0
+S08-eventid-143 ref  st
+S08-eventid-143 hyp  si
+S08-eventid-143 op    S
+S08-eventid-143 #csid 0 1 0 0
+S08-eventid-144 ref  pr
+S08-eventid-144 hyp  pr
+S08-eventid-144 op    C
+S08-eventid-144 #csid 1 0 0 0
+S08-eventid-145 ref  pr
+S08-eventid-145 hyp  pr
+S08-eventid-145 op    C
+S08-eventid-145 #csid 1 0 0 0
+S08-eventid-146 ref  spe
+S08-eventid-146 hyp  spe
+S08-eventid-146 op    C 
+S08-eventid-146 #csid 1 0 0 0
+S08-eventid-147 ref  st
+S08-eventid-147 hyp  st
+S08-eventid-147 op    C
+S08-eventid-147 #csid 1 0 0 0
+S08-eventid-148 ref  pr
+S08-eventid-148 hyp  pr
+S08-eventid-148 op    C
+S08-eventid-148 #csid 1 0 0 0
+S08-eventid-149 ref  spe
+S08-eventid-149 hyp  spe
+S08-eventid-149 op    C 
+S08-eventid-149 #csid 1 0 0 0
+S08-eventid-150 ref  spe
+S08-eventid-150 hyp  spe
+S08-eventid-150 op    C 
+S08-eventid-150 #csid 1 0 0 0
+S08-eventid-151 ref  st
+S08-eventid-151 hyp  st
+S08-eventid-151 op    C
+S08-eventid-151 #csid 1 0 0 0
+S08-eventid-152 ref  spe
+S08-eventid-152 hyp  spe
+S08-eventid-152 op    C 
+S08-eventid-152 #csid 1 0 0 0
+S08-eventid-153 ref  st
+S08-eventid-153 hyp  pw
+S08-eventid-153 op    S
+S08-eventid-153 #csid 0 1 0 0
+S08-eventid-154 ref  spe
+S08-eventid-154 hyp  spe
+S08-eventid-154 op    C 
+S08-eventid-154 #csid 1 0 0 0
+S08-eventid-155 ref  st
+S08-eventid-155 hyp  st
+S08-eventid-155 op    C
+S08-eventid-155 #csid 1 0 0 0
+S08-eventid-156 ref  spe
+S08-eventid-156 hyp  spe
+S08-eventid-156 op    C 
+S08-eventid-156 #csid 1 0 0 0
+S08-eventid-157 ref  st
+S08-eventid-157 hyp  si
+S08-eventid-157 op    S
+S08-eventid-157 #csid 0 1 0 0
+S08-eventid-158 ref  pr
+S08-eventid-158 hyp  pr
+S08-eventid-158 op    C
+S08-eventid-158 #csid 1 0 0 0
+S08-eventid-159 ref  spe
+S08-eventid-159 hyp  spe
+S08-eventid-159 op    C 
+S08-eventid-159 #csid 1 0 0 0
+S08-eventid-160 ref  spe
+S08-eventid-160 hyp  spe
+S08-eventid-160 op    C 
+S08-eventid-160 #csid 1 0 0 0
+S08-eventid-161 ref  st
+S08-eventid-161 hyp  st
+S08-eventid-161 op    C
+S08-eventid-161 #csid 1 0 0 0
+S08-eventid-162 ref  spe
+S08-eventid-162 hyp  spe
+S08-eventid-162 op    C 
+S08-eventid-162 #csid 1 0 0 0
+S08-eventid-163 ref  st
+S08-eventid-163 hyp  si
+S08-eventid-163 op    S
+S08-eventid-163 #csid 0 1 0 0
+S08-eventid-164 ref  pr
+S08-eventid-164 hyp  pr
+S08-eventid-164 op    C
+S08-eventid-164 #csid 1 0 0 0
+S08-eventid-165 ref  spe
+S08-eventid-165 hyp  spe
+S08-eventid-165 op    C 
+S08-eventid-165 #csid 1 0 0 0
+S08-eventid-166 ref  st
+S08-eventid-166 hyp  st
+S08-eventid-166 op    C
+S08-eventid-166 #csid 1 0 0 0
+S08-eventid-167 ref  spe
+S08-eventid-167 hyp  spe
+S08-eventid-167 op    C 
+S08-eventid-167 #csid 1 0 0 0
+S08-eventid-168 ref  ds
+S08-eventid-168 hyp  cm
+S08-eventid-168 op    S
+S08-eventid-168 #csid 0 1 0 0
+S08-eventid-169 ref  spe
+S08-eventid-169 hyp  spe
+S08-eventid-169 op    C 
+S08-eventid-169 #csid 1 0 0 0
+S08-eventid-170 ref  spe
+S08-eventid-170 hyp  spe
+S08-eventid-170 op    C 
+S08-eventid-170 #csid 1 0 0 0
+S08-eventid-171 ref  pr
+S08-eventid-171 hyp  pr
+S08-eventid-171 op    C
+S08-eventid-171 #csid 1 0 0 0
+S08-eventid-172 ref  spe
+S08-eventid-172 hyp  spe
+S08-eventid-172 op    C 
+S08-eventid-172 #csid 1 0 0 0
+S08-eventid-173 ref  spe
+S08-eventid-173 hyp  spe
+S08-eventid-173 op    C 
+S08-eventid-173 #csid 1 0 0 0
+S08-eventid-174 ref  spe
+S08-eventid-174 hyp  spe
+S08-eventid-174 op    C 
+S08-eventid-174 #csid 1 0 0 0
+S08-eventid-175 ref  pr
+S08-eventid-175 hyp  pr
+S08-eventid-175 op    C
+S08-eventid-175 #csid 1 0 0 0
+S08-eventid-176 ref   pr
+S08-eventid-176 hyp  spe
+S08-eventid-176 op    S 
+S08-eventid-176 #csid 0 1 0 0
+S08-eventid-177 ref  pr
+S08-eventid-177 hyp  pr
+S08-eventid-177 op    C
+S08-eventid-177 #csid 1 0 0 0
+S08-eventid-178 ref  spe
+S08-eventid-178 hyp  spe
+S08-eventid-178 op    C 
+S08-eventid-178 #csid 1 0 0 0
+S08-eventid-179 ref  spe
+S08-eventid-179 hyp  spe
+S08-eventid-179 op    C 
+S08-eventid-179 #csid 1 0 0 0
+S08-eventid-180 ref  spe
+S08-eventid-180 hyp  spe
+S08-eventid-180 op    C 
+S08-eventid-180 #csid 1 0 0 0
+S08-eventid-181 ref  spe
+S08-eventid-181 hyp  spe
+S08-eventid-181 op    C 
+S08-eventid-181 #csid 1 0 0 0
+S08-eventid-182 ref  pr
+S08-eventid-182 hyp  pr
+S08-eventid-182 op    C
+S08-eventid-182 #csid 1 0 0 0
+S08-eventid-183 ref  spe
+S08-eventid-183 hyp  spe
+S08-eventid-183 op    C 
+S08-eventid-183 #csid 1 0 0 0
+S08-eventid-184 ref  spe
+S08-eventid-184 hyp  spe
+S08-eventid-184 op    C 
+S08-eventid-184 #csid 1 0 0 0
+S08-eventid-185 ref  spe
+S08-eventid-185 hyp  spe
+S08-eventid-185 op    C 
+S08-eventid-185 #csid 1 0 0 0
+S08-eventid-186 ref  spe
+S08-eventid-186 hyp  spe
+S08-eventid-186 op    C 
+S08-eventid-186 #csid 1 0 0 0
+S08-eventid-187 ref  spe
+S08-eventid-187 hyp   si
+S08-eventid-187 op    S 
+S08-eventid-187 #csid 0 1 0 0
+S08-eventid-188 ref  spe
+S08-eventid-188 hyp  spe
+S08-eventid-188 op    C 
+S08-eventid-188 #csid 1 0 0 0
+S08-eventid-189 ref  pr
+S08-eventid-189 hyp  si
+S08-eventid-189 op    S
+S08-eventid-189 #csid 0 1 0 0
+S08-eventid-190 ref  pr
+S08-eventid-190 hyp  pr
+S08-eventid-190 op    C
+S08-eventid-190 #csid 1 0 0 0
+S08-eventid-191 ref  spe
+S08-eventid-191 hyp  spe
+S08-eventid-191 op    C 
+S08-eventid-191 #csid 1 0 0 0
+S08-eventid-192 ref  spe
+S08-eventid-192 hyp  spe
+S08-eventid-192 op    C 
+S08-eventid-192 #csid 1 0 0 0
+S08-eventid-193 ref  spe
+S08-eventid-193 hyp  spe
+S08-eventid-193 op    C 
+S08-eventid-193 #csid 1 0 0 0
+S08-eventid-194 ref  spe
+S08-eventid-194 hyp  spe
+S08-eventid-194 op    C 
+S08-eventid-194 #csid 1 0 0 0
+S08-eventid-195 ref  pr
+S08-eventid-195 hyp  pr
+S08-eventid-195 op    C
+S08-eventid-195 #csid 1 0 0 0
+S08-eventid-196 ref  spe
+S08-eventid-196 hyp  spe
+S08-eventid-196 op    C 
+S08-eventid-196 #csid 1 0 0 0
+S08-eventid-197 ref  spe
+S08-eventid-197 hyp  spe
+S08-eventid-197 op    C 
+S08-eventid-197 #csid 1 0 0 0
+S08-eventid-198 ref  spe
+S08-eventid-198 hyp  spe
+S08-eventid-198 op    C 
+S08-eventid-198 #csid 1 0 0 0
+S08-eventid-199 ref  spe
+S08-eventid-199 hyp  spe
+S08-eventid-199 op    C 
+S08-eventid-199 #csid 1 0 0 0
+S08-eventid-200 ref  pr
+S08-eventid-200 hyp  pr
+S08-eventid-200 op    C
+S08-eventid-200 #csid 1 0 0 0
+S08-eventid-201 ref   pr
+S08-eventid-201 hyp  spe
+S08-eventid-201 op    S 
+S08-eventid-201 #csid 0 1 0 0
+S08-eventid-202 ref  pw
+S08-eventid-202 hyp  pw
+S08-eventid-202 op    C
+S08-eventid-202 #csid 1 0 0 0
+S08-eventid-203 ref  pw
+S08-eventid-203 hyp  pw
+S08-eventid-203 op    C
+S08-eventid-203 #csid 1 0 0 0
+S08-eventid-204 ref  pw
+S08-eventid-204 hyp  pw
+S08-eventid-204 op    C
+S08-eventid-204 #csid 1 0 0 0
+S08-eventid-205 ref  pw
+S08-eventid-205 hyp  pw
+S08-eventid-205 op    C
+S08-eventid-205 #csid 1 0 0 0
+S08-eventid-206 ref  pw
+S08-eventid-206 hyp  pw
+S08-eventid-206 op    C
+S08-eventid-206 #csid 1 0 0 0
+S08-eventid-207 ref  pw
+S08-eventid-207 hyp  pw
+S08-eventid-207 op    C
+S08-eventid-207 #csid 1 0 0 0
+S08-eventid-208 ref  pw
+S08-eventid-208 hyp  kt
+S08-eventid-208 op    S
+S08-eventid-208 #csid 0 1 0 0
+S08-eventid-209 ref  pw
+S08-eventid-209 hyp  pw
+S08-eventid-209 op    C
+S08-eventid-209 #csid 1 0 0 0
+S08-eventid-210 ref  pw
+S08-eventid-210 hyp  pw
+S08-eventid-210 op    C
+S08-eventid-210 #csid 1 0 0 0
+S08-eventid-211 ref  pw
+S08-eventid-211 hyp  pw
+S08-eventid-211 op    C
+S08-eventid-211 #csid 1 0 0 0
+S08-eventid-212 ref  pw
+S08-eventid-212 hyp  pw
+S08-eventid-212 op    C
+S08-eventid-212 #csid 1 0 0 0
+S08-eventid-213 ref  pw
+S08-eventid-213 hyp  pw
+S08-eventid-213 op    C
+S08-eventid-213 #csid 1 0 0 0
+S08-eventid-214 ref  co
+S08-eventid-214 hyp  co
+S08-eventid-214 op    C
+S08-eventid-214 #csid 1 0 0 0
+S08-eventid-215 ref  co
+S08-eventid-215 hyp  co
+S08-eventid-215 op    C
+S08-eventid-215 #csid 1 0 0 0
+S08-eventid-216 ref  co
+S08-eventid-216 hyp  co
+S08-eventid-216 op    C
+S08-eventid-216 #csid 1 0 0 0
+S08-eventid-217 ref  co
+S08-eventid-217 hyp  co
+S08-eventid-217 op    C
+S08-eventid-217 #csid 1 0 0 0
+S08-eventid-218 ref  co
+S08-eventid-218 hyp  co
+S08-eventid-218 op    C
+S08-eventid-218 #csid 1 0 0 0
+S08-eventid-219 ref  co
+S08-eventid-219 hyp  co
+S08-eventid-219 op    C
+S08-eventid-219 #csid 1 0 0 0
+S08-eventid-220 ref  co
+S08-eventid-220 hyp  co
+S08-eventid-220 op    C
+S08-eventid-220 #csid 1 0 0 0
+S08-eventid-221 ref  co
+S08-eventid-221 hyp  co
+S08-eventid-221 op    C
+S08-eventid-221 #csid 1 0 0 0
+S08-eventid-222 ref  co
+S08-eventid-222 hyp  co
+S08-eventid-222 op    C
+S08-eventid-222 #csid 1 0 0 0
+S08-eventid-223 ref  co
+S08-eventid-223 hyp  co
+S08-eventid-223 op    C
+S08-eventid-223 #csid 1 0 0 0
+S08-eventid-224 ref  co
+S08-eventid-224 hyp  co
+S08-eventid-224 op    C
+S08-eventid-224 #csid 1 0 0 0
+S08-eventid-225 ref  co
+S08-eventid-225 hyp  co
+S08-eventid-225 op    C
+S08-eventid-225 #csid 1 0 0 0
+S08-eventid-226 ref  kt
+S08-eventid-226 hyp  kt
+S08-eventid-226 op    C
+S08-eventid-226 #csid 1 0 0 0
+S08-eventid-227 ref  kt
+S08-eventid-227 hyp  kt
+S08-eventid-227 op    C
+S08-eventid-227 #csid 1 0 0 0
+S08-eventid-228 ref  kt
+S08-eventid-228 hyp  kt
+S08-eventid-228 op    C
+S08-eventid-228 #csid 1 0 0 0
+S08-eventid-229 ref  kt
+S08-eventid-229 hyp  kt
+S08-eventid-229 op    C
+S08-eventid-229 #csid 1 0 0 0
+S08-eventid-230 ref  kt
+S08-eventid-230 hyp  kt
+S08-eventid-230 op    C
+S08-eventid-230 #csid 1 0 0 0
+S08-eventid-231 ref  kt
+S08-eventid-231 hyp  kt
+S08-eventid-231 op    C
+S08-eventid-231 #csid 1 0 0 0
+S08-eventid-232 ref  kt
+S08-eventid-232 hyp  kt
+S08-eventid-232 op    C
+S08-eventid-232 #csid 1 0 0 0
+S08-eventid-233 ref  kt
+S08-eventid-233 hyp  kt
+S08-eventid-233 op    C
+S08-eventid-233 #csid 1 0 0 0
+S08-eventid-234 ref  kt
+S08-eventid-234 hyp  kt
+S08-eventid-234 op    C
+S08-eventid-234 #csid 1 0 0 0
+S08-eventid-235 ref  kt
+S08-eventid-235 hyp  kt
+S08-eventid-235 op    C
+S08-eventid-235 #csid 1 0 0 0
+S08-eventid-236 ref  kt
+S08-eventid-236 hyp  kt
+S08-eventid-236 op    C
+S08-eventid-236 #csid 1 0 0 0
+S08-eventid-237 ref  cl
+S08-eventid-237 hyp  cl
+S08-eventid-237 op    C
+S08-eventid-237 #csid 1 0 0 0
+S08-eventid-238 ref  cl
+S08-eventid-238 hyp  cl
+S08-eventid-238 op    C
+S08-eventid-238 #csid 1 0 0 0
+S08-eventid-239 ref  cl
+S08-eventid-239 hyp  cl
+S08-eventid-239 op    C
+S08-eventid-239 #csid 1 0 0 0
+S08-eventid-240 ref  cl
+S08-eventid-240 hyp  cl
+S08-eventid-240 op    C
+S08-eventid-240 #csid 1 0 0 0
+S08-eventid-241 ref  cl
+S08-eventid-241 hyp  cl
+S08-eventid-241 op    C
+S08-eventid-241 #csid 1 0 0 0
+S08-eventid-242 ref  cl
+S08-eventid-242 hyp  cl
+S08-eventid-242 op    C
+S08-eventid-242 #csid 1 0 0 0
+S08-eventid-243 ref  cl
+S08-eventid-243 hyp  cl
+S08-eventid-243 op    C
+S08-eventid-243 #csid 1 0 0 0
+S08-eventid-244 ref  cl
+S08-eventid-244 hyp  cl
+S08-eventid-244 op    C
+S08-eventid-244 #csid 1 0 0 0
+S08-eventid-245 ref  cl
+S08-eventid-245 hyp  cl
+S08-eventid-245 op    C
+S08-eventid-245 #csid 1 0 0 0
+S08-eventid-246 ref  cl
+S08-eventid-246 hyp  cl
+S08-eventid-246 op    C
+S08-eventid-246 #csid 1 0 0 0
+S08-eventid-247 ref  cl
+S08-eventid-247 hyp  cl
+S08-eventid-247 op    C
+S08-eventid-247 #csid 1 0 0 0
+S08-eventid-248 ref  cl
+S08-eventid-248 hyp  cl
+S08-eventid-248 op    C
+S08-eventid-248 #csid 1 0 0 0
+S08-eventid-249 ref  cl
+S08-eventid-249 hyp  cl
+S08-eventid-249 op    C
+S08-eventid-249 #csid 1 0 0 0
+S08-eventid-250 ref  cl
+S08-eventid-250 hyp  cl
+S08-eventid-250 op    C
+S08-eventid-250 #csid 1 0 0 0
+S08-eventid-251 ref  cl
+S08-eventid-251 hyp  cl
+S08-eventid-251 op    C
+S08-eventid-251 #csid 1 0 0 0
+S08-eventid-252 ref  kj
+S08-eventid-252 hyp  kj
+S08-eventid-252 op    C
+S08-eventid-252 #csid 1 0 0 0
+S08-eventid-253 ref  cm
+S08-eventid-253 hyp  cm
+S08-eventid-253 op    C
+S08-eventid-253 #csid 1 0 0 0
+S08-eventid-254 ref  kj
+S08-eventid-254 hyp  kj
+S08-eventid-254 op    C
+S08-eventid-254 #csid 1 0 0 0
+S08-eventid-255 ref  kj
+S08-eventid-255 hyp  kj
+S08-eventid-255 op    C
+S08-eventid-255 #csid 1 0 0 0
+S08-eventid-256 ref  kj
+S08-eventid-256 hyp  kj
+S08-eventid-256 op    C
+S08-eventid-256 #csid 1 0 0 0
+S08-eventid-257 ref  kj
+S08-eventid-257 hyp  pw
+S08-eventid-257 op    S
+S08-eventid-257 #csid 0 1 0 0
+S08-eventid-258 ref  kj
+S08-eventid-258 hyp  kj
+S08-eventid-258 op    C
+S08-eventid-258 #csid 1 0 0 0
+S08-eventid-259 ref  kj
+S08-eventid-259 hyp  kj
+S08-eventid-259 op    C
+S08-eventid-259 #csid 1 0 0 0
+S08-eventid-260 ref  kj
+S08-eventid-260 hyp  kj
+S08-eventid-260 op    C
+S08-eventid-260 #csid 1 0 0 0
+S08-eventid-261 ref  kj
+S08-eventid-261 hyp  kj
+S08-eventid-261 op    C
+S08-eventid-261 #csid 1 0 0 0
+S08-eventid-262 ref  kj
+S08-eventid-262 hyp  kj
+S08-eventid-262 op    C
+S08-eventid-262 #csid 1 0 0 0
+S08-eventid-263 ref  kj
+S08-eventid-263 hyp  kj
+S08-eventid-263 op    C
+S08-eventid-263 #csid 1 0 0 0
+S08-eventid-264 ref  kj
+S08-eventid-264 hyp  kj
+S08-eventid-264 op    C
+S08-eventid-264 #csid 1 0 0 0
+S08-eventid-265 ref  kj
+S08-eventid-265 hyp  kj
+S08-eventid-265 op    C
+S08-eventid-265 #csid 1 0 0 0
+S08-eventid-266 ref  kj
+S08-eventid-266 hyp  kj
+S08-eventid-266 op    C
+S08-eventid-266 #csid 1 0 0 0
+S08-eventid-267 ref  kj
+S08-eventid-267 hyp  kj
+S08-eventid-267 op    C
+S08-eventid-267 #csid 1 0 0 0
+S08-eventid-268 ref  kj
+S08-eventid-268 hyp  kj
+S08-eventid-268 op    C
+S08-eventid-268 #csid 1 0 0 0
+S08-eventid-269 ref  kj
+S08-eventid-269 hyp  kj
+S08-eventid-269 op    C
+S08-eventid-269 #csid 1 0 0 0
+S08-eventid-270 ref  ap
+S08-eventid-270 hyp  ap
+S08-eventid-270 op    C
+S08-eventid-270 #csid 1 0 0 0
+S08-eventid-271 ref  ap
+S08-eventid-271 hyp  ap
+S08-eventid-271 op    C
+S08-eventid-271 #csid 1 0 0 0
+S08-eventid-272 ref  ap
+S08-eventid-272 hyp  ap
+S08-eventid-272 op    C
+S08-eventid-272 #csid 1 0 0 0
+S08-eventid-273 ref  ap
+S08-eventid-273 hyp  ap
+S08-eventid-273 op    C
+S08-eventid-273 #csid 1 0 0 0
+S08-eventid-274 ref  ap
+S08-eventid-274 hyp  ap
+S08-eventid-274 op    C
+S08-eventid-274 #csid 1 0 0 0
+S08-eventid-275 ref  ap
+S08-eventid-275 hyp  ap
+S08-eventid-275 op    C
+S08-eventid-275 #csid 1 0 0 0
+S08-eventid-276 ref  ap
+S08-eventid-276 hyp  ap
+S08-eventid-276 op    C
+S08-eventid-276 #csid 1 0 0 0
+S08-eventid-277 ref  ap
+S08-eventid-277 hyp  ap
+S08-eventid-277 op    C
+S08-eventid-277 #csid 1 0 0 0
+S08-eventid-278 ref  ap
+S08-eventid-278 hyp  ap
+S08-eventid-278 op    C
+S08-eventid-278 #csid 1 0 0 0
+S08-eventid-279 ref  ap
+S08-eventid-279 hyp  ap
+S08-eventid-279 op    C
+S08-eventid-279 #csid 1 0 0 0
+S08-eventid-280 ref  ap
+S08-eventid-280 hyp  ap
+S08-eventid-280 op    C
+S08-eventid-280 #csid 1 0 0 0
+S08-eventid-281 ref  ap
+S08-eventid-281 hyp  si
+S08-eventid-281 op    S
+S08-eventid-281 #csid 0 1 0 0
+S08-eventid-282 ref  ap
+S08-eventid-282 hyp  ap
+S08-eventid-282 op    C
+S08-eventid-282 #csid 1 0 0 0
+S08-eventid-283 ref  ap
+S08-eventid-283 hyp  ap
+S08-eventid-283 op    C
+S08-eventid-283 #csid 1 0 0 0
+S08-eventid-284 ref  kj
+S08-eventid-284 hyp  kj
+S08-eventid-284 op    C
+S08-eventid-284 #csid 1 0 0 0
+S08-eventid-285 ref  ds
+S08-eventid-285 hyp  ds
+S08-eventid-285 op    C
+S08-eventid-285 #csid 1 0 0 0

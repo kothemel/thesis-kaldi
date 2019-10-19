@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/train_smarthomes/spk2utt scp:data/train_smarthomes/feats.scp ark,scp:/home/kothemel/kaldi-trunk/egs/smarthomes_embedded/s5/mfcc/cmvn_train_smarthomes.ark,/home/kothemel/kaldi-trunk/egs/smarthomes_embedded/s5/mfcc/cmvn_train_smarthomes.scp 
+LOG (compute-cmvn-stats:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 2362 utterances; 0 had errors.

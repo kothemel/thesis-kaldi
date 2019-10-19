@@ -1,0 +1,23 @@
+
+\data\
+ngram 1=14
+
+\1-grams:
+-1 knock
+-1 doorslam
+-1 steps
+-1 chairmoving
+-1 spoon
+-1 paperwork
+-1 keyjingle
+-1 keyboard
+-1 phone
+-1 applause
+-1 cough
+-1 speech
+-1 silence
+
+-99 <s>
+-1 </s>
+
+\end\

@@ -1,0 +1,7 @@
+# compile-train-graphs exp/mono0a/tree exp/mono0a/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 1 -f 2- data/lang/words.txt < data/train_smarthomes/split1/1/text|" "ark:|gzip -c >exp/mono0a/fsts.1.gz" 
+# Started at Tue Jul 14 10:06:54 EEST 2015
+#
+compile-train-graphs exp/mono0a/tree exp/mono0a/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 1 -f 2- data/lang/words.txt < data/train_smarthomes/split1/1/text|' 'ark:|gzip -c >exp/mono0a/fsts.1.gz' 
+LOG (compile-train-graphs:main():compile-train-graphs.cc:151) compile-train-graphs: succeeded for 2362 graphs, failed for 0
+# Accounting: time=2 threads=1
+# Ended (code 0) at Tue Jul 14 10:06:56 EEST 2015, elapsed time 2 seconds

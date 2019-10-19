@@ -1,0 +1,15 @@
+# nnet-get-egs --left-context=4 --right-context=4 "ark,s,cs:utils/filter_scp.pl --exclude exp/dnn/valid_uttlist data/train_smarthomes/split1/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- |" "ark,s,cs:gunzip -c exp/mono0a/ali.1.gz | ali-to-pdf exp/mono0a/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |" ark:- | nnet-copy-egs ark:- ark:exp/dnn/egs/egs_orig.1.1.ark ark:exp/dnn/egs/egs_orig.2.1.ark ark:exp/dnn/egs/egs_orig.3.1.ark ark:exp/dnn/egs/egs_orig.4.1.ark ark:exp/dnn/egs/egs_orig.5.1.ark ark:exp/dnn/egs/egs_orig.6.1.ark ark:exp/dnn/egs/egs_orig.7.1.ark ark:exp/dnn/egs/egs_orig.8.1.ark ark:exp/dnn/egs/egs_orig.9.1.ark ark:exp/dnn/egs/egs_orig.10.1.ark ark:exp/dnn/egs/egs_orig.11.1.ark ark:exp/dnn/egs/egs_orig.12.1.ark ark:exp/dnn/egs/egs_orig.13.1.ark ark:exp/dnn/egs/egs_orig.14.1.ark ark:exp/dnn/egs/egs_orig.15.1.ark ark:exp/dnn/egs/egs_orig.16.1.ark 
+# Started at Tue Jul 14 10:17:07 EEST 2015
+#
+nnet-get-egs --left-context=4 --right-context=4 'ark,s,cs:utils/filter_scp.pl --exclude exp/dnn/valid_uttlist data/train_smarthomes/split1/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- |' 'ark,s,cs:gunzip -c exp/mono0a/ali.1.gz | ali-to-pdf exp/mono0a/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |' ark:- 
+apply-cmvn --utt2spk=ark:data/train_smarthomes/split1/1/utt2spk scp:data/train_smarthomes/split1/1/cmvn.scp scp:- ark:- 
+ali-to-pdf exp/mono0a/final.mdl ark:- ark:- 
+ali-to-post ark:- ark:- 
+nnet-copy-egs ark:- ark:exp/dnn/egs/egs_orig.1.1.ark ark:exp/dnn/egs/egs_orig.2.1.ark ark:exp/dnn/egs/egs_orig.3.1.ark ark:exp/dnn/egs/egs_orig.4.1.ark ark:exp/dnn/egs/egs_orig.5.1.ark ark:exp/dnn/egs/egs_orig.6.1.ark ark:exp/dnn/egs/egs_orig.7.1.ark ark:exp/dnn/egs/egs_orig.8.1.ark ark:exp/dnn/egs/egs_orig.9.1.ark ark:exp/dnn/egs/egs_orig.10.1.ark ark:exp/dnn/egs/egs_orig.11.1.ark ark:exp/dnn/egs/egs_orig.12.1.ark ark:exp/dnn/egs/egs_orig.13.1.ark ark:exp/dnn/egs/egs_orig.14.1.ark ark:exp/dnn/egs/egs_orig.15.1.ark ark:exp/dnn/egs/egs_orig.16.1.ark 
+LOG (ali-to-pdf:main():ali-to-pdf.cc:68) Converted 2362 alignments to pdf sequences.
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 2362 alignments.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 2062 utterances, errors on 0
+LOG (nnet-get-egs:main():nnet-get-egs.cc:174) Finished generating examples, successfully processed 2062 feature files, wrote 536638 examples,  with 536638 egs in total; 0 files had errors.
+LOG (nnet-copy-egs:main():nnet-copy-egs.cc:170) Read 536638 neural-network training examples, wrote 536638
+# Accounting: time=33 threads=1
+# Ended (code 0) at Tue Jul 14 10:17:40 EEST 2015, elapsed time 33 seconds

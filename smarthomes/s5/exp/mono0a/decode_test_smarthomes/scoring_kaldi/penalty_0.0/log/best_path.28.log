@@ -1,0 +1,584 @@
+# lattice-scale --inv-acoustic-scale=28 "ark:gunzip -c exp/mono0a/decode_test_smarthomes/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono0a/graph_tgpr/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/mono0a/graph_tgpr/words.txt | cat > exp/mono0a/decode_test_smarthomes/scoring_kaldi/penalty_0.0/28.txt 
+# Started at Mon Jul 13 18:11:25 EEST 2015
+#
+lattice-scale --inv-acoustic-scale=28 'ark:gunzip -c exp/mono0a/decode_test_smarthomes/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/mono0a/graph_tgpr/words.txt ark:- ark,t:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-000, best cost 3.06614 + 57.1224 = 60.1885 over 22 frames.
+S08-eventid-000 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-001, best cost 3.09158 + 108.288 = 111.38 over 36 frames.
+S08-eventid-001 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-002, best cost 3.23789 + 146.743 = 149.981 over 44 frames.
+S08-eventid-002 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-003, best cost 3.06114 + 60.6254 = 63.6865 over 22 frames.
+S08-eventid-003 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-004, best cost 3.11298 + 118.967 = 122.08 over 41 frames.
+S08-eventid-004 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-005, best cost 3.15587 + 294.97 = 298.126 over 100 frames.
+S08-eventid-005 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-006, best cost 3.15466 + 93.1497 = 96.3044 over 33 frames.
+S08-eventid-006 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-007, best cost 8.90056 + 433.893 = 442.793 over 154 frames.
+S08-eventid-007 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-008, best cost 3.15571 + 137.184 = 140.34 over 44 frames.
+S08-eventid-008 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-009, best cost 3.10628 + 82.4118 = 85.5181 over 29 frames.
+S08-eventid-009 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-010, best cost 3.18567 + 150.489 = 153.675 over 51 frames.
+S08-eventid-010 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-011, best cost 3.14221 + 264.233 = 267.375 over 86 frames.
+S08-eventid-011 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-012, best cost 3.11907 + 87.4698 = 90.5888 over 31 frames.
+S08-eventid-012 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-013, best cost 7.65936 + 289.376 = 297.036 over 102 frames.
+S08-eventid-013 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-014, best cost 3.13221 + 124.465 = 127.598 over 42 frames.
+S08-eventid-014 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-015, best cost 2.86974 + 74.4468 = 77.3166 over 24 frames.
+S08-eventid-015 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-016, best cost 3.10523 + 78.326 = 81.4312 over 28 frames.
+S08-eventid-016 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-017, best cost 3.13649 + 126.713 = 129.85 over 43 frames.
+S08-eventid-017 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-018, best cost 3.18025 + 277.334 = 280.514 over 89 frames.
+S08-eventid-018 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-019, best cost 5.45288 + 173.449 = 178.902 over 59 frames.
+S08-eventid-019 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-020, best cost 13.797 + 426.869 = 440.666 over 146 frames.
+S08-eventid-020 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-021, best cost 3.09796 + 104.074 = 107.172 over 34 frames.
+S08-eventid-021 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-022, best cost 3.13361 + 94.2215 = 97.3551 over 34 frames.
+S08-eventid-022 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-023, best cost 3.12046 + 123.547 = 126.667 over 41 frames.
+S08-eventid-023 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-024, best cost 3.19794 + 257.776 = 260.974 over 83 frames.
+S08-eventid-024 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-025, best cost 3.09557 + 78.4258 = 81.5214 over 29 frames.
+S08-eventid-025 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-026, best cost 12.8217 + 500.421 = 513.243 over 174 frames.
+S08-eventid-026 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-027, best cost 3.1354 + 126.312 = 129.448 over 41 frames.
+S08-eventid-027 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-028, best cost 3.09698 + 86.5223 = 89.6193 over 31 frames.
+S08-eventid-028 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-029, best cost 3.11081 + 113.494 = 116.605 over 37 frames.
+S08-eventid-029 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-030, best cost 3.035 + 247.448 = 250.483 over 80 frames.
+S08-eventid-030 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-031, best cost 3.10942 + 86.6079 = 89.7173 over 32 frames.
+S08-eventid-031 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-032, best cost 3.13649 + 129.653 = 132.79 over 43 frames.
+S08-eventid-032 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-033, best cost 2.9288 + 111.76 = 114.688 over 38 frames.
+S08-eventid-033 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-034, best cost 3.10431 + 108.324 = 111.429 over 38 frames.
+S08-eventid-034 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-035, best cost 3.1996 + 169.556 = 172.756 over 56 frames.
+S08-eventid-035 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-036, best cost 3.14333 + 244.671 = 247.814 over 78 frames.
+S08-eventid-036 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-037, best cost 3.10464 + 101.154 = 104.258 over 37 frames.
+S08-eventid-037 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-038, best cost 8.5939 + 283.39 = 291.984 over 99 frames.
+S08-eventid-038 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-039, best cost 3.07664 + 106.052 = 109.129 over 36 frames.
+S08-eventid-039 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-040, best cost 3.09069 + 69.7195 = 72.8102 over 25 frames.
+S08-eventid-040 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-041, best cost 3.11189 + 121.154 = 124.266 over 39 frames.
+S08-eventid-041 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-042, best cost 3.09009 + 267.23 = 270.32 over 85 frames.
+S08-eventid-042 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-043, best cost 3.13047 + 86.3859 = 89.5164 over 31 frames.
+S08-eventid-043 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-044, best cost 14.7849 + 614.802 = 629.587 over 214 frames.
+S08-eventid-044 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-045, best cost 3.15462 + 131.213 = 134.367 over 42 frames.
+S08-eventid-045 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-046, best cost 3.11141 + 71.5538 = 74.6652 over 25 frames.
+S08-eventid-046 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-047, best cost 3.15361 + 134.04 = 137.193 over 47 frames.
+S08-eventid-047 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-048, best cost 3.0072 + 223.896 = 226.904 over 71 frames.
+S08-eventid-048 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-049, best cost 3.10127 + 82.5788 = 85.6801 over 29 frames.
+S08-eventid-049 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-050, best cost 10.6077 + 539.917 = 550.525 over 190 frames.
+S08-eventid-050 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-051, best cost 3.07119 + 79.3416 = 82.4128 over 26 frames.
+S08-eventid-051 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-052, best cost 20.3255 + 1040.81 = 1061.13 over 352 frames.
+S08-eventid-052 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-053, best cost 3.10768 + 89.735 = 92.8427 over 31 frames.
+S08-eventid-053 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-054, best cost 3.07555 + 98.929 = 102.005 over 34 frames.
+S08-eventid-054 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-055, best cost 3.04522 + 236.594 = 239.64 over 75 frames.
+S08-eventid-055 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-056, best cost 3.11256 + 95.0039 = 98.1165 over 35 frames.
+S08-eventid-056 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-057, best cost 12.6824 + 491.89 = 504.572 over 161 frames.
+S08-eventid-057 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-058, best cost 5.28162 + 117.531 = 122.813 over 39 frames.
+S08-eventid-058 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-059, best cost 15.7673 + 601.713 = 617.481 over 202 frames.
+S08-eventid-059 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-060, best cost 3.07999 + 70.3252 = 73.4052 over 25 frames.
+S08-eventid-060 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-061, best cost 3.12256 + 114.615 = 117.737 over 38 frames.
+S08-eventid-061 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-062, best cost 3.17699 + 241.458 = 244.635 over 80 frames.
+S08-eventid-062 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-063, best cost 5.42146 + 161.601 = 167.022 over 56 frames.
+S08-eventid-063 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-064, best cost 13.6939 + 607.929 = 621.623 over 211 frames.
+S08-eventid-064 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-065, best cost 3.10653 + 107.746 = 110.852 over 36 frames.
+S08-eventid-065 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-066, best cost 17.8964 + 823.689 = 841.586 over 281 frames.
+S08-eventid-066 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-067, best cost 3.07999 + 74.7553 = 77.8353 over 25 frames.
+S08-eventid-067 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-068, best cost 3.10232 + 120.782 = 123.884 over 42 frames.
+S08-eventid-068 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-069, best cost 3.09117 + 216.952 = 220.043 over 68 frames.
+S08-eventid-069 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-070, best cost 3.10628 + 80.5457 = 83.6519 over 29 frames.
+S08-eventid-070 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-071, best cost 16.4708 + 652.489 = 668.96 over 227 frames.
+S08-eventid-071 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-072, best cost 3.114 + 110.161 = 113.275 over 36 frames.
+S08-eventid-072 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-073, best cost 14.7574 + 597.34 = 612.097 over 201 frames.
+S08-eventid-073 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-074, best cost 3.09488 + 81.0181 = 84.113 over 29 frames.
+S08-eventid-074 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-075, best cost 3.13649 + 127.259 = 130.396 over 43 frames.
+S08-eventid-075 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-076, best cost 3.25793 + 267.98 = 271.238 over 88 frames.
+S08-eventid-076 kn 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-077, best cost 5.38497 + 126.284 = 131.669 over 42 frames.
+S08-eventid-077 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-078, best cost 11.945 + 493.236 = 505.181 over 166 frames.
+S08-eventid-078 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-079, best cost 3.14295 + 142.103 = 145.246 over 48 frames.
+S08-eventid-079 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-080, best cost 27.6984 + 1624.49 = 1652.19 over 563 frames.
+S08-eventid-080 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-081, best cost 3.41681 + 371.086 = 374.502 over 130 frames.
+S08-eventid-081 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-082, best cost 3.62635 + 388.327 = 391.953 over 143 frames.
+S08-eventid-082 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-083, best cost 22.6199 + 1264.49 = 1287.11 over 429 frames.
+S08-eventid-083 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-084, best cost 3.35058 + 325.804 = 329.155 over 117 frames.
+S08-eventid-084 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-085, best cost 8.00228 + 320.05 = 328.052 over 109 frames.
+S08-eventid-085 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-086, best cost 7.60806 + 265.096 = 272.704 over 88 frames.
+S08-eventid-086 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-087, best cost 5.60922 + 321.636 = 327.246 over 116 frames.
+S08-eventid-087 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-088, best cost 22.9199 + 1313.05 = 1335.97 over 446 frames.
+S08-eventid-088 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-089, best cost 3.32834 + 325.672 = 329 over 117 frames.
+S08-eventid-089 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-090, best cost 6.01678 + 486.686 = 492.703 over 170 frames.
+S08-eventid-090 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-091, best cost 20.4065 + 797.731 = 818.138 over 265 frames.
+S08-eventid-091 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-092, best cost 3.16248 + 270.456 = 273.619 over 97 frames.
+S08-eventid-092 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-093, best cost 5.26627 + 164.536 = 169.802 over 52 frames.
+S08-eventid-093 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-094, best cost 11.4048 + 582.166 = 593.57 over 205 frames.
+S08-eventid-094 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-095, best cost 3.37773 + 344.285 = 347.663 over 126 frames.
+S08-eventid-095 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-096, best cost 18.6814 + 804.943 = 823.624 over 265 frames.
+S08-eventid-096 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-097, best cost 3.38101 + 296.753 = 300.134 over 104 frames.
+S08-eventid-097 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-098, best cost 8.68822 + 286.34 = 295.028 over 96 frames.
+S08-eventid-098 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-099, best cost 5.29275 + 176.619 = 181.912 over 59 frames.
+S08-eventid-099 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-100, best cost 3.35079 + 256.878 = 260.229 over 91 frames.
+S08-eventid-100 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-101, best cost 6.87382 + 369.694 = 376.568 over 125 frames.
+S08-eventid-101 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-102, best cost 5.65837 + 278.326 = 283.984 over 96 frames.
+S08-eventid-102 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-103, best cost 32.7333 + 1465.9 = 1498.63 over 494 frames.
+S08-eventid-103 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-104, best cost 3.25813 + 315.178 = 318.436 over 110 frames.
+S08-eventid-104 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-105, best cost 9.7726 + 238.427 = 248.199 over 80 frames.
+S08-eventid-105 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-106, best cost 3.04265 + 154.424 = 157.467 over 54 frames.
+S08-eventid-106 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-107, best cost 3.27481 + 151.088 = 154.363 over 51 frames.
+S08-eventid-107 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-108, best cost 3.06113 + 214.068 = 217.129 over 77 frames.
+S08-eventid-108 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-109, best cost 33.2943 + 1182.35 = 1215.65 over 404 frames.
+S08-eventid-109 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-110, best cost 6.18346 + 427.511 = 433.695 over 144 frames.
+S08-eventid-110 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-111, best cost 8.41841 + 545.454 = 553.873 over 185 frames.
+S08-eventid-111 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-112, best cost 3.25003 + 172.26 = 175.51 over 59 frames.
+S08-eventid-112 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-113, best cost 8.06558 + 486.87 = 494.936 over 157 frames.
+S08-eventid-113 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-114, best cost 19.4241 + 723.769 = 743.193 over 237 frames.
+S08-eventid-114 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-115, best cost 5.5401 + 331.808 = 337.348 over 115 frames.
+S08-eventid-115 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-116, best cost 7.91298 + 257.688 = 265.601 over 89 frames.
+S08-eventid-116 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-117, best cost 5.61467 + 296.969 = 302.583 over 100 frames.
+S08-eventid-117 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-118, best cost 5.35267 + 201.401 = 206.754 over 71 frames.
+S08-eventid-118 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-119, best cost 8.5322 + 238.912 = 247.444 over 81 frames.
+S08-eventid-119 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-120, best cost 3.48495 + 377.49 = 380.975 over 130 frames.
+S08-eventid-120 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-121, best cost 16.4935 + 771.549 = 788.043 over 262 frames.
+S08-eventid-121 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-122, best cost 5.766 + 349.595 = 355.361 over 122 frames.
+S08-eventid-122 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-123, best cost 8.74846 + 314.005 = 322.754 over 106 frames.
+S08-eventid-123 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-124, best cost 5.63972 + 260.346 = 265.986 over 92 frames.
+S08-eventid-124 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-125, best cost 3.43387 + 326.528 = 329.962 over 116 frames.
+S08-eventid-125 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-126, best cost 19.3819 + 757.754 = 777.136 over 245 frames.
+S08-eventid-126 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-127, best cost 5.58893 + 295.7 = 301.289 over 101 frames.
+S08-eventid-127 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-128, best cost 5.46755 + 222.863 = 228.331 over 74 frames.
+S08-eventid-128 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-129, best cost 3.04864 + 169.162 = 172.21 over 60 frames.
+S08-eventid-129 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-130, best cost 13.6916 + 319.97 = 333.661 over 101 frames.
+S08-eventid-130 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-131, best cost 3.46437 + 302.282 = 305.747 over 107 frames.
+S08-eventid-131 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-132, best cost 17.5259 + 806.808 = 824.334 over 268 frames.
+S08-eventid-132 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-133, best cost 3.18457 + 203.262 = 206.447 over 71 frames.
+S08-eventid-133 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-134, best cost 3.02611 + 192.075 = 195.101 over 68 frames.
+S08-eventid-134 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-135, best cost 3.17425 + 182.212 = 185.386 over 63 frames.
+S08-eventid-135 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-136, best cost 3.11708 + 262.917 = 266.034 over 98 frames.
+S08-eventid-136 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-137, best cost 22.251 + 874.917 = 897.168 over 289 frames.
+S08-eventid-137 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-138, best cost 3.28629 + 294.423 = 297.71 over 103 frames.
+S08-eventid-138 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-139, best cost 3.24047 + 269.126 = 272.367 over 93 frames.
+S08-eventid-139 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-140, best cost 3.10664 + 220.664 = 223.771 over 77 frames.
+S08-eventid-140 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-141, best cost 3.23377 + 308.875 = 312.109 over 110 frames.
+S08-eventid-141 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-142, best cost 5.46168 + 127.628 = 133.089 over 44 frames.
+S08-eventid-142 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-143, best cost 5.70696 + 316.307 = 322.014 over 109 frames.
+S08-eventid-143 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-144, best cost 8.42634 + 453.456 = 461.883 over 116 frames.
+S08-eventid-144 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-145, best cost 3.49226 + 406.595 = 410.087 over 103 frames.
+S08-eventid-145 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-146, best cost 3.88364 + 1228.05 = 1231.93 over 362 frames.
+S08-eventid-146 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-147, best cost 23.3321 + 965.065 = 988.397 over 325 frames.
+S08-eventid-147 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-148, best cost 8.7423 + 2833.48 = 2842.23 over 871 frames.
+S08-eventid-148 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-149, best cost 3.5814 + 399.473 = 403.054 over 119 frames.
+S08-eventid-149 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-150, best cost 3.45606 + 168.529 = 171.985 over 52 frames.
+S08-eventid-150 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-151, best cost 2.96144 + 107.665 = 110.626 over 35 frames.
+S08-eventid-151 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-152, best cost 3.44258 + 150.036 = 153.479 over 45 frames.
+S08-eventid-152 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-153, best cost 3.29298 + 69.2897 = 72.5827 over 22 frames.
+S08-eventid-153 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-154, best cost 3.42746 + 129.085 = 132.513 over 38 frames.
+S08-eventid-154 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-155, best cost 5.13499 + 113.165 = 118.3 over 35 frames.
+S08-eventid-155 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-156, best cost 3.46959 + 193.912 = 197.381 over 57 frames.
+S08-eventid-156 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-157, best cost 12.8266 + 737.855 = 750.681 over 246 frames.
+S08-eventid-157 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-158, best cost 22.0953 + 3514.82 = 3536.92 over 1093 frames.
+S08-eventid-158 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-159, best cost 3.47428 + 220.439 = 223.913 over 64 frames.
+S08-eventid-159 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-160, best cost 10.6745 + 587.214 = 597.888 over 173 frames.
+S08-eventid-160 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-161, best cost 2.84614 + 65.7588 = 68.6049 over 21 frames.
+S08-eventid-161 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-162, best cost 3.52097 + 470.224 = 473.745 over 139 frames.
+S08-eventid-162 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-163, best cost 10.2912 + 390.086 = 400.377 over 133 frames.
+S08-eventid-163 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-164, best cost 36.6423 + 3572.65 = 3609.29 over 1067 frames.
+S08-eventid-164 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-165, best cost 5.82753 + 470.042 = 475.869 over 149 frames.
+S08-eventid-165 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-166, best cost 11.8248 + 973.817 = 985.642 over 331 frames.
+S08-eventid-166 st 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-167, best cost 3.53014 + 290.477 = 294.007 over 90 frames.
+S08-eventid-167 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-168, best cost 3.0338 + 108.599 = 111.632 over 36 frames.
+S08-eventid-168 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-169, best cost 3.44092 + 129.252 = 132.693 over 39 frames.
+S08-eventid-169 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-170, best cost 3.5814 + 486.869 = 490.451 over 145 frames.
+S08-eventid-170 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-171, best cost 44.1507 + 3401.4 = 3445.55 over 1036 frames.
+S08-eventid-171 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-172, best cost 11.3056 + 741.703 = 753.009 over 232 frames.
+S08-eventid-172 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-173, best cost 3.44561 + 238.312 = 241.758 over 70 frames.
+S08-eventid-173 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-174, best cost 11.071 + 789.981 = 801.052 over 258 frames.
+S08-eventid-174 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-175, best cost 6.67313 + 3408.69 = 3415.37 over 1030 frames.
+S08-eventid-175 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-176, best cost 4.14476 + 2444 = 2448.14 over 770 frames.
+S08-eventid-176 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-177, best cost 11.2541 + 2881.74 = 2893 over 820 frames.
+S08-eventid-177 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-178, best cost 3.41434 + 121.565 = 124.979 over 37 frames.
+S08-eventid-178 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-179, best cost 3.65479 + 695.243 = 698.898 over 210 frames.
+S08-eventid-179 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-180, best cost 5.65755 + 183.47 = 189.127 over 53 frames.
+S08-eventid-180 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-181, best cost 3.48882 + 346.45 = 349.939 over 109 frames.
+S08-eventid-181 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-182, best cost 28.2316 + 3456.16 = 3484.4 over 1013 frames.
+S08-eventid-182 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-183, best cost 5.63187 + 201.903 = 207.535 over 60 frames.
+S08-eventid-183 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-184, best cost 3.46018 + 155.7 = 159.16 over 47 frames.
+S08-eventid-184 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-185, best cost 3.44085 + 239.475 = 242.916 over 70 frames.
+S08-eventid-185 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-186, best cost 3.457 + 302.586 = 306.043 over 92 frames.
+S08-eventid-186 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-187, best cost 6.55322 + 316.187 = 322.74 over 117 frames.
+S08-eventid-187 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-188, best cost 5.74777 + 686.81 = 692.557 over 206 frames.
+S08-eventid-188 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-189, best cost 8.12919 + 1437.07 = 1445.2 over 507 frames.
+S08-eventid-189 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-190, best cost 9.90606 + 3892.82 = 3902.72 over 1128 frames.
+S08-eventid-190 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-191, best cost 3.41793 + 112.065 = 115.483 over 33 frames.
+S08-eventid-191 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-192, best cost 7.12148 + 473.129 = 480.251 over 146 frames.
+S08-eventid-192 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-193, best cost 7.59767 + 1399.56 = 1407.16 over 424 frames.
+S08-eventid-193 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-194, best cost 3.58991 + 737.513 = 741.103 over 224 frames.
+S08-eventid-194 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-195, best cost 18.096 + 4250.76 = 4268.85 over 1238 frames.
+S08-eventid-195 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-196, best cost 3.42164 + 108.82 = 112.242 over 32 frames.
+S08-eventid-196 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-197, best cost 3.46625 + 343.853 = 347.319 over 100 frames.
+S08-eventid-197 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-198, best cost 3.53098 + 420.48 = 424.011 over 128 frames.
+S08-eventid-198 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-199, best cost 12.1925 + 815.167 = 827.359 over 258 frames.
+S08-eventid-199 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-200, best cost 9.51484 + 2992.44 = 3001.95 over 847 frames.
+S08-eventid-200 pr 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-201, best cost 27.2688 + 3272.59 = 3299.86 over 1007 frames.
+S08-eventid-201 spe 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-202, best cost 10.6811 + 564.242 = 574.923 over 192 frames.
+S08-eventid-202 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-203, best cost 34.7714 + 1687.28 = 1722.05 over 577 frames.
+S08-eventid-203 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-204, best cost 72.7762 + 4059.37 = 4132.15 over 1402 frames.
+S08-eventid-204 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-205, best cost 51.6599 + 4474.74 = 4526.4 over 1526 frames.
+S08-eventid-205 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-206, best cost 51.1802 + 5605.15 = 5656.33 over 1907 frames.
+S08-eventid-206 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-207, best cost 19.4544 + 980.938 = 1000.39 over 327 frames.
+S08-eventid-207 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-208, best cost 39.7936 + 3441.07 = 3480.87 over 1172 frames.
+S08-eventid-208 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-209, best cost 70.0757 + 4659.35 = 4729.43 over 1584 frames.
+S08-eventid-209 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-210, best cost 82.9509 + 6037.27 = 6120.22 over 2069 frames.
+S08-eventid-210 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-211, best cost 48.6866 + 3969.96 = 4018.65 over 1356 frames.
+S08-eventid-211 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-212, best cost 51.7333 + 5163.76 = 5215.49 over 1770 frames.
+S08-eventid-212 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-213, best cost 54.7521 + 4411.39 = 4466.14 over 1499 frames.
+S08-eventid-213 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-214, best cost 4.08445 + 1196.71 = 1200.79 over 360 frames.
+S08-eventid-214 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-215, best cost 11.5993 + 1380.14 = 1391.74 over 420 frames.
+S08-eventid-215 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-216, best cost 3.87077 + 816.253 = 820.124 over 247 frames.
+S08-eventid-216 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-217, best cost 4.11328 + 1182.98 = 1187.09 over 346 frames.
+S08-eventid-217 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-218, best cost 12.6451 + 1108.41 = 1121.06 over 337 frames.
+S08-eventid-218 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-219, best cost 4.09135 + 1053.24 = 1057.33 over 318 frames.
+S08-eventid-219 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-220, best cost 8.1067 + 1413.81 = 1421.91 over 430 frames.
+S08-eventid-220 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-221, best cost 4.28236 + 1381.09 = 1385.37 over 410 frames.
+S08-eventid-221 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-222, best cost 10.5179 + 1267.48 = 1278 over 385 frames.
+S08-eventid-222 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-223, best cost 8.71362 + 1109.07 = 1117.78 over 332 frames.
+S08-eventid-223 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-224, best cost 3.89066 + 807.956 = 811.847 over 241 frames.
+S08-eventid-224 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-225, best cost 3.84915 + 852.256 = 856.105 over 247 frames.
+S08-eventid-225 co 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-226, best cost 16.803 + 1507.28 = 1524.08 over 527 frames.
+S08-eventid-226 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-227, best cost 19.3386 + 2052.84 = 2072.18 over 732 frames.
+S08-eventid-227 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-228, best cost 36.5106 + 1916.03 = 1952.54 over 670 frames.
+S08-eventid-228 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-229, best cost 30.5604 + 2145.61 = 2176.17 over 752 frames.
+S08-eventid-229 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-230, best cost 29.2644 + 4013.71 = 4042.97 over 1425 frames.
+S08-eventid-230 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-231, best cost 19.4378 + 1961.39 = 1980.82 over 685 frames.
+S08-eventid-231 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-232, best cost 7.486 + 2190.53 = 2198.01 over 771 frames.
+S08-eventid-232 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-233, best cost 14.121 + 3092.63 = 3106.75 over 1091 frames.
+S08-eventid-233 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-234, best cost 21.5717 + 2196.16 = 2217.73 over 776 frames.
+S08-eventid-234 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-235, best cost 30.4695 + 3021.49 = 3051.96 over 1060 frames.
+S08-eventid-235 kt 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 286 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-236, best cost 29.2709 + 2680.01 = 2709.28 over 945 frames.
+S08-eventid-236 kt 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-237, best cost 13.616 + 2587.52 = 2601.13 over 803 frames.
+S08-eventid-237 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-238, best cost 9.337 + 2103.88 = 2113.22 over 640 frames.
+S08-eventid-238 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-239, best cost 7.78427 + 1424.46 = 1432.25 over 448 frames.
+S08-eventid-239 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-240, best cost 10.3158 + 1531.71 = 1542.02 over 470 frames.
+S08-eventid-240 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-241, best cost 4.14473 + 1470.15 = 1474.29 over 442 frames.
+S08-eventid-241 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-242, best cost 5.11138 + 2137.09 = 2142.2 over 641 frames.
+S08-eventid-242 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-243, best cost 3.93519 + 1497.96 = 1501.9 over 450 frames.
+S08-eventid-243 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-244, best cost 3.90973 + 1812.27 = 1816.18 over 548 frames.
+S08-eventid-244 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-245, best cost 3.99321 + 1915.13 = 1919.13 over 579 frames.
+S08-eventid-245 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-246, best cost 3.99762 + 2006.19 = 2010.19 over 609 frames.
+S08-eventid-246 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-247, best cost 4.45602 + 2100.51 = 2104.96 over 632 frames.
+S08-eventid-247 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-248, best cost 3.98859 + 1749.48 = 1753.47 over 531 frames.
+S08-eventid-248 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-249, best cost 4.44194 + 1556.67 = 1561.12 over 469 frames.
+S08-eventid-249 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-250, best cost 3.94844 + 1704.16 = 1708.11 over 513 frames.
+S08-eventid-250 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-251, best cost 3.39355 + 83.0159 = 86.4095 over 26 frames.
+S08-eventid-251 cl 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-252, best cost 7.73241 + 1589.68 = 1597.41 over 509 frames.
+S08-eventid-252 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-253, best cost 3.35423 + 201.69 = 205.044 over 68 frames.
+S08-eventid-253 cm 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-254, best cost 6.71797 + 1714.39 = 1721.11 over 555 frames.
+S08-eventid-254 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-255, best cost 8.37386 + 2213.11 = 2221.49 over 710 frames.
+S08-eventid-255 kj 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 286 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-256, best cost 10.9896 + 1759.19 = 1770.18 over 575 frames.
+S08-eventid-256 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-257, best cost 3.3723 + 83.0078 = 86.3801 over 29 frames.
+S08-eventid-257 pw 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-258, best cost 6.50182 + 1117.92 = 1124.42 over 370 frames.
+S08-eventid-258 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-259, best cost 3.94356 + 1029.86 = 1033.8 over 317 frames.
+S08-eventid-259 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-260, best cost 3.89557 + 971.656 = 975.551 over 301 frames.
+S08-eventid-260 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-261, best cost 8.89792 + 1550.76 = 1559.66 over 484 frames.
+S08-eventid-261 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-262, best cost 4.1445 + 1318.68 = 1322.82 over 414 frames.
+S08-eventid-262 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-263, best cost 8.74113 + 1340.47 = 1349.21 over 422 frames.
+S08-eventid-263 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-264, best cost 4.1117 + 1290.28 = 1294.39 over 408 frames.
+S08-eventid-264 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-265, best cost 6.39178 + 1366.98 = 1373.37 over 435 frames.
+S08-eventid-265 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-266, best cost 10.9659 + 1161.96 = 1172.93 over 364 frames.
+S08-eventid-266 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-267, best cost 4.02888 + 1173.93 = 1177.96 over 369 frames.
+S08-eventid-267 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-268, best cost 4.21409 + 1481.91 = 1486.13 over 457 frames.
+S08-eventid-268 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-269, best cost 3.925 + 963.988 = 967.913 over 310 frames.
+S08-eventid-269 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-270, best cost 3.15579 + 879.242 = 882.397 over 285 frames.
+S08-eventid-270 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-271, best cost 3.2826 + 952.052 = 955.334 over 311 frames.
+S08-eventid-271 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-272, best cost 3.16121 + 957.288 = 960.449 over 306 frames.
+S08-eventid-272 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-273, best cost 3.3185 + 1073.77 = 1077.09 over 347 frames.
+S08-eventid-273 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-274, best cost 3.22298 + 1078.73 = 1081.96 over 353 frames.
+S08-eventid-274 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-275, best cost 3.10628 + 1051.45 = 1054.55 over 353 frames.
+S08-eventid-275 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-276, best cost 16.814 + 1208.5 = 1225.32 over 409 frames.
+S08-eventid-276 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-277, best cost 3.31424 + 1176.08 = 1179.4 over 381 frames.
+S08-eventid-277 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-278, best cost 3.40035 + 998.416 = 1001.82 over 332 frames.
+S08-eventid-278 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-279, best cost 19.5006 + 1431.38 = 1450.88 over 480 frames.
+S08-eventid-279 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-280, best cost 3.36614 + 943.64 = 947.006 over 315 frames.
+S08-eventid-280 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-281, best cost 7.48843 + 882.614 = 890.102 over 329 frames.
+S08-eventid-281 si 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-282, best cost 3.57488 + 1318.84 = 1322.42 over 445 frames.
+S08-eventid-282 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-283, best cost 3.25943 + 1233.95 = 1237.21 over 400 frames.
+S08-eventid-283 ap 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-284, best cost 3.47952 + 215.623 = 219.103 over 70 frames.
+S08-eventid-284 kj 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance S08-eventid-285, best cost 3.11294 + 117.286 = 120.398 over 40 frames.
+S08-eventid-285 ds 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 3.11228 = 0.0322665 [graph] + 3.08001 [acoustic] over 82367 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 286 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Jul 13 18:11:25 EEST 2015, elapsed time 0 seconds

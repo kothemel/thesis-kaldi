@@ -1,0 +1,30 @@
+# nnet-show-progress --use-gpu=no exp/dnn/3.mdl exp/dnn/4.mdl ark:exp/dnn/egs/train_diagnostic.egs && nnet-am-info exp/dnn/4.mdl 
+# Started at Tue Jul 14 10:27:27 EEST 2015
+#
+nnet-show-progress --use-gpu=no exp/dnn/3.mdl exp/dnn/4.mdl ark:exp/dnn/egs/train_diagnostic.egs 
+LOG (nnet-show-progress:main():nnet-show-progress.cc:123) At position 0.5, objf per frame is -0.907502
+LOG (nnet-show-progress:main():nnet-show-progress.cc:134) Total objf change per component is  [ 0.0077239 0.018296 ]
+
+LOG (nnet-show-progress:main():nnet-show-progress.cc:145) Parameter differences per layer are  [ 1.51271 2.23593 ]
+
+LOG (nnet-show-progress:main():nnet-show-progress.cc:153) Relative parameter differences per layer are  [ 0.0331871 0.072968 ]
+
+nnet-am-info exp/dnn/4.mdl 
+LOG (nnet-am-info:main():nnet-am-info.cc:76) Printed info about exp/dnn/4.mdl
+num-components 7
+num-updatable-components 2
+left-context 4
+right-context 4
+input-dim 13
+output-dim 44
+parameter-dim 367244
+component 0 : SpliceComponent, input-dim=13, output-dim=117, context=-4 -3 -2 -1 0 1 2 3 4 
+component 1 : FixedAffineComponent, input-dim=117, output-dim=117, linear-params-stddev=0.00198686, bias-params-stddev=0.0230184
+component 2 : AffineComponentPreconditionedOnline, input-dim=117, output-dim=3000, linear-params-stddev=0.0561378, bias-params-stddev=0.578584, learning-rate=0.004, rank-in=20, rank-out=80, num_samples_history=2000, update_period=4, alpha=4, max-change-per-sample=0.075
+component 3 : PnormComponent, input-dim = 3000, output-dim = 300, p = 2
+component 4 : NormalizeComponent, input-dim=300, output-dim=300
+component 5 : AffineComponentPreconditionedOnline, input-dim=300, output-dim=44, linear-params-stddev=0.272522, bias-params-stddev=0.0352242, learning-rate=0.004, rank-in=20, rank-out=80, num_samples_history=2000, update_period=4, alpha=4, max-change-per-sample=0.075
+component 6 : SoftmaxComponent, input-dim=44, output-dim=44
+prior dimension: 44, prior sum: 1, prior min: 0.000566086
+# Accounting: time=96 threads=1
+# Ended (code 0) at Tue Jul 14 10:29:03 EEST 2015, elapsed time 96 seconds

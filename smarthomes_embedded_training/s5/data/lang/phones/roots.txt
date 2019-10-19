@@ -1,0 +1,14 @@
+shared split SIL
+shared split kn
+shared split ds
+shared split st
+shared split cm
+shared split cl
+shared split pw
+shared split kj
+shared split kt
+shared split pr
+shared split ap
+shared split co
+shared split spe
+shared split si

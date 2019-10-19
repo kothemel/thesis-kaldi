@@ -1,0 +1,13 @@
+# nnet-get-egs --left-context=4 --right-context=4 "ark,s,cs:utils/filter_scp.pl exp/dnn/valid_uttlist data/train_smarthomes/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/utt2spk scp:data/train_smarthomes/cmvn.scp scp:- ark:- |" "ark,s,cs:gunzip -c exp/dnn/ali_special.gz | ali-to-pdf exp/mono0a/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |" ark:exp/dnn/egs/valid_all.egs 
+# Started at Tue Jul 14 10:17:00 EEST 2015
+#
+nnet-get-egs --left-context=4 --right-context=4 'ark,s,cs:utils/filter_scp.pl exp/dnn/valid_uttlist data/train_smarthomes/feats.scp | apply-cmvn  --utt2spk=ark:data/train_smarthomes/utt2spk scp:data/train_smarthomes/cmvn.scp scp:- ark:- |' 'ark,s,cs:gunzip -c exp/dnn/ali_special.gz | ali-to-pdf exp/mono0a/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |' ark:exp/dnn/egs/valid_all.egs 
+apply-cmvn --utt2spk=ark:data/train_smarthomes/utt2spk scp:data/train_smarthomes/cmvn.scp scp:- ark:- 
+ali-to-post ark:- ark:- 
+ali-to-pdf exp/mono0a/final.mdl ark:- ark:- 
+LOG (ali-to-pdf:main():ali-to-pdf.cc:68) Converted 600 alignments to pdf sequences.
+LOG (ali-to-post:main():ali-to-post.cc:65) Converted 600 alignments.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 300 utterances, errors on 0
+LOG (nnet-get-egs:main():nnet-get-egs.cc:174) Finished generating examples, successfully processed 300 feature files, wrote 83409 examples,  with 83409 egs in total; 0 files had errors.
+# Accounting: time=6 threads=1
+# Ended (code 0) at Tue Jul 14 10:17:06 EEST 2015, elapsed time 6 seconds

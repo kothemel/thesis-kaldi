@@ -1,0 +1,14 @@
+<SIL>	1.0	SIL
+kn	1.0	kn
+ds	1.0	ds
+st	1.0	st
+cm	1.0	cm
+cl	1.0	cl
+pw	1.0	pw
+kj	1.0	kj
+kt	1.0	kt
+pr	1.0	pr
+ap	1.0	ap
+co	1.0	co
+spe	1.0	spe
+si	1.0	si

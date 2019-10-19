@@ -1,0 +1,23 @@
+
+\data\
+ngram 1=13
+
+\1-grams:
+-1 kn 
+-1 ds 
+-1 st 
+-1 cm 
+-1 cl 
+-1 pw 
+-1 kj 
+-1 kt 
+-1 pr 
+-1 ap 
+-1 co 
+-1 spe
+-1 si
+
+-99 <s>
+-1 </s>
+
+\end\
